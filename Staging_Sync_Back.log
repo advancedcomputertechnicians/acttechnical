@@ -1,0 +1,500 @@
+[2026-04-17 19:41:25] AUDIT: Independent Sync-Back Started 
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : April 17, 2026 7:41:26 PM
+   Source : C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\
+     Dest = G:\My Drive\apps\websiteacttechnical\
+
+    Files : *.*
+	    
+ Exc Dirs : node_modules
+	    .git
+	    
+  Options : *.* /V /TEE /S /E /DCOPY:DA /COPY:DAT /MT:32 /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  *EXTRA File 		   12507	G:\My Drive\apps\websiteacttechnical\2010 02 17 act new symbol.jpg
+	  *EXTRA File 		  403806	G:\My Drive\apps\websiteacttechnical\2026 4 16 godaddy 1.pdf
+	  *EXTRA File 		   56399	G:\My Drive\apps\websiteacttechnical\project.mobirise
+	  *EXTRA File 		   11057	G:\My Drive\apps\websiteacttechnical\screenshot.png
+	       tweaked		    2485	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\publish-hashes.json
+	    New File  		    2474	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\contact.php  0%  
+	       tweaked		   56213	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\history\project-190425101305.mobirise_history
+
+	       tweaked		    2894	
+	       tweaked		     237	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\assets\images\2010-02-17-act-new-symbol-jpg-128x35.png	       tweaked		    3836	
+
+
+
+
+C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\assets\tether\tether.min.cssC:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\assets\bootstrap\css\bootstrap-reboot.min.css	       tweaked		    9653		       tweaked		    7982	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\assets\dropdown\css\style.css	       tweaked		   45134		       tweaked		    7591	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\assets\dropdown\js\script.min.js	       tweaked		    9144	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\assets\mobirise\css\mbr-additional.cssC:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\assets\web\assets\mobirise-icons\mobirise-icons.css
+C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\assets\socicon\css\styles.css	       tweaked		   56399	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\history\project-190425104930.mobirise_history
+	       tweaked		    1094	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\assets\images\act-favicon-128x45.png
+	       tweaked		    1153	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\assets\images\act-favicon-128x98.png
+	       tweaked		    1647	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\assets\images\act-logo-reverse-422x121-128x37.png
+	       tweaked		    8113	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\assets\images\act-logo-reverse-422x121.png
+	       tweaked		    8354	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\assets\images\act-logo-reverse-494x142.png
+	       tweaked		    1868	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\assets\images\hashes.json
+	       tweaked		   46390	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\assets\images\photo-1488590528505-98d2b5aba04b-750x500.jpg
+	       tweaked		   35995	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\assets\images\photo-1517694712202-14dd9538aa97-676x451.jpg
+	       tweaked		   41663	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\assets\images\photo-1526738549149-8e07eca6c147-625x500.jpg
+	       tweaked		   23448	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\assets\images\photo-1530435460869-d13625c69bbf-676x451.jpg
+	       tweaked		  484822	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\assets\images\photo-1531668383211-64743e924c66-652x501.jpg100%  
+	    Newer     		   14707	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\index.html100%  
+	    New File  		      61	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\Staging_Sync_Back.log100%  
+	    New File  		      27	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\version.json100%  
+	    New File  		     519	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\weather_audit.log100%  
+	    New File  		    4121	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\css\style.css100%  
+	    New File  		   11912	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\images\logo.png100%  
+	    New File  		    3228	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\js\contact.js100%  
+	    New File  		    8601	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\js\i18n.js100%  
+	    New File  		    2966	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\js\main.js100%  
+	    New File  		    2772	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\js\particles.js100%  
+	    New File  		   12205	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\js\weather_hero.js100%  
+	    New File  		  403806	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\2026 4 16 godaddy 1.pdf100%  
+	    New File  		   31891	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\2026 4 16 progress 1 0 a.JPG100%  
+	    New File  		   44295	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\2026 4 16 progress 1 0 b.JPG100%  
+	    New File  		   26589	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\2026 4 16 progress 1 1.JPG100%  
+	    New File  		   89736	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\2026 4 16 progress 1.JPG100%  
+	    New File  		   54541	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\2026 4 16 progress 11 a.JPG100%  
+	    New File  		   74498	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\2026 4 16 progress 11.JPG100%  
+	    New File  		    9170	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\2026 4 16 progress 2.JPG100%  
+	    New File  		   73629	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\2026 4 16 progress 3.JPG100%  
+	    New File  		   64474	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\2026 4 16 progress 4.JPG100%  
+	    New File  		   61688	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\2026 4 16 progress 5.JPG100%  
+	    New File  		   64257	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\2026 4 16 progress 6.JPG100%  
+	    New File  		   60676	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\2026 4 16 progress 7 b.JPG100%  
+	    New File  		   51619	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\2026 4 16 progress 7 c.JPG100%  
+	    New File  		   56073	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\2026 4 16 progress 7.JPG100%  
+	    New File  		   46175	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\2026 4 16 progress 7a.JPG100%  
+	    New File  		   46303	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\2026 4 16 progress 8 a.JPG100%  
+	    New File  		   60156	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\2026 4 16 progress 8.JPG100%  
+	    New File  		   52195	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\2026 4 17 progress 1 7.JPG100%  
+	    New File  		   50304	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\2026 4 17 progress 1 8.JPG100%  
+	    New File  		   57997	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\2026 4 17 progress 1 8a.JPG100%  
+	    New File  		   49611	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\2026 4 17 progress 16.JPG100%  
+	    New File  		   67999	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\2026 4 17 progress 2 0 a.JPG100%  
+	    New File  		   74545	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\2026 4 17 progress 2 0 b.JPG100%  
+	    New File  		   12507	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\unused\2010_02_17_act_new_symbol.jpg100%  
+	    New File  		    1183	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\unused\clean_logo_fixed.py100%  
+	    New File  		   56399	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\history\project.mobirise100%  
+	    New File  		   11057	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\history\screenshot.png100%  
+	    New File  		    2474	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\v1_021_AUDIT_READY\contact.php100%  
+	    New File  		   14707	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\v1_021_AUDIT_READY\index.html100%  
+	    New File  		      27	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\v1_021_AUDIT_READY\version.json100%  
+	    New File  		     519	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\v1_021_AUDIT_READY\weather_audit.log100%  
+	    New File  		    4121	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\v1_021_AUDIT_READY\css\style.css100%  
+	    New File  		    3228	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\v1_021_AUDIT_READY\js\contact.js100%  
+	    New File  		    8601	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\v1_021_AUDIT_READY\js\i18n.js100%  
+	    New File  		    2966	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\v1_021_AUDIT_READY\js\main.js100%  
+	    New File  		    2772	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\v1_021_AUDIT_READY\js\particles.js100%  
+	    New File  		   12205	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\v1_021_AUDIT_READY\js\weather_hero.js100%  
+	    New File  		   11912	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\v1_021_AUDIT_READY\images\logo.png100%  
+	    New File  		   10534	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_003\index.html100%  
+	    New File  		   10452	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_006\index.html100%  
+	    New File  		    3319	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_006\style.css100%  
+	    New File  		    6670	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_006\weather_hero.js100%  
+	    New File  		   10441	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_004\index.html100%  
+	    New File  		    3074	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_004\style.css100%  
+	    New File  		    6195	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_004\weather_hero.js100%  
+	    New File  		   10697	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_007\index.html100%  
+	    New File  		    6123	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_007\weather_hero.js?100%  
+	    New File  		   15768	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_016_DEPLOY\index.html100%  
+	    New File  		      27	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_016_DEPLOY\version.json100%  
+	    New File  		    2617	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_017_FINAL_SECURITY\contact.php100%  
+	    New File  		   14707	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_017_FINAL_SECURITY\index.html100%  
+	    New File  		      27	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_017_FINAL_SECURITY\version.json100%  
+	    New File  		    2611	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_018_LIVE_READY\contact.php100%  
+	    New File  		   14707	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_018_LIVE_READY\index.html100%  
+	    New File  		      27	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_018_LIVE_READY\version.json100%  
+	    New File  		    2611	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_019_PIVOT_SKY\contact.php100%  
+	    New File  		   14707	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_019_PIVOT_SKY\index.html100%  
+	    New File  		      27	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_019_PIVOT_SKY\version.json100%  
+	    New File  		    2476	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_020_ZENITH_FINAL\contact.php100%  
+	    New File  		   14707	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_020_ZENITH_FINAL\index.html100%  
+	    New File  		      27	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_020_ZENITH_FINAL\version.json100%  
+	    New File  		    4121	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_016_DEPLOY\css\style.css100%  
+	    New File  		   11912	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_016_DEPLOY\images\logo.png100%  
+	    New File  		    8601	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_016_DEPLOY\js\i18n.js100%  
+	    New File  		    2966	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_016_DEPLOY\js\main.js100%  
+	    New File  		   11888	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_016_DEPLOY\js\weather_hero.js100%  
+	    New File  		    4121	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_017_FINAL_SECURITY\css\style.css100%  
+	    New File  		   11912	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_017_FINAL_SECURITY\images\logo.png100%  
+	    New File  		    3228	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_017_FINAL_SECURITY\js\contact.js100%  
+	    New File  		    8601	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_017_FINAL_SECURITY\js\i18n.js100%  
+	    New File  		    2966	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_017_FINAL_SECURITY\js\main.js100%  
+	    New File  		    2772	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_017_FINAL_SECURITY\js\particles.js100%  
+	    New File  		   11054	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_017_FINAL_SECURITY\js\weather_hero.js100%  
+	    New File  		    4121	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_018_LIVE_READY\css\style.css100%  
+	    New File  		   11912	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_018_LIVE_READY\images\logo.png100%  
+	    New File  		    3228	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_018_LIVE_READY\js\contact.js100%  
+	    New File  		    8601	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_018_LIVE_READY\js\i18n.js100%  
+	    New File  		    2966	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_018_LIVE_READY\js\main.js100%  
+	    New File  		   11752	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_018_LIVE_READY\js\weather_hero.js100%  
+	    New File  		    4121	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_019_PIVOT_SKY\css\style.css100%  
+	    New File  		   11912	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_019_PIVOT_SKY\images\logo.png100%  
+	    New File  		    3228	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_019_PIVOT_SKY\js\contact.js100%  
+	    New File  		    8601	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_019_PIVOT_SKY\js\i18n.js100%  
+	    New File  		    2966	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_019_PIVOT_SKY\js\main.js100%  
+	    New File  		   12130	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_019_PIVOT_SKY\js\weather_hero.js100%  
+	    New File  		    4121	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_020_ZENITH_FINAL\css\style.css100%  
+	    New File  		   11912	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_020_ZENITH_FINAL\images\logo.png100%  
+	    New File  		    3228	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_020_ZENITH_FINAL\js\contact.js100%  
+	    New File  		    8601	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_020_ZENITH_FINAL\js\i18n.js100%  
+	    New File  		    2966	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_020_ZENITH_FINAL\js\main.js100%  
+	    New File  		    2772	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_020_ZENITH_FINAL\js\particles.js100%  
+	    New File  		   12087	C:\Users\dannyGeminiAnti\Documents\websiteacttechnical Work\results\versions\v1_020_ZENITH_FINAL\js\weather_hero.js100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :        60        60        17         0         0         0
+   Files :       127       105        22         0         0         4
+   Bytes :    2.96 m    2.14 m   836.0 k         0         0   472.4 k
+   Times :   0:01:04   0:00:02                       0:00:00   0:00:00
+
+
+   Speed :              924893 Bytes/sec.
+   Speed :              52.922 MegaBytes/min.
+   Ended : April 17, 2026 7:41:28 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : April 17, 2026 7:41:28 PM
+   Source : C:\Users\dannyGeminiAnti\Documents\_App_System\
+     Dest = G:\My Drive\apps\_App_System\
+
+    Files : *.*
+	    
+  Options : *.* /V /TEE /S /E /DCOPY:DA /COPY:DAT /MT:32 /R:3 /W:5 
+
+------------------------------------------------------------------------------
+
+	       tweaked		    1770	C:\Users\dannyGeminiAnti\Documents\_App_System\BACKTOG.bat
+	       tweaked		     250	C:\Users\dannyGeminiAnti\Documents\_App_System\Build_Authorization_DESKTOP-31FKBOB_2026-04-08_14-25-34.txt
+	       tweaked		    3589	C:\Users\dannyGeminiAnti\Documents\_App_System\deploy_brains.py
+	       tweaked		    1765	C:\Users\dannyGeminiAnti\Documents\_App_System\Finish_Session.bat
+	       tweaked		    2481	C:\Users\dannyGeminiAnti\Documents\_App_System\init_brains.py
+	       tweaked		    1959	C:\Users\dannyGeminiAnti\Documents\_App_System\instructions.start
+	       tweaked		     206	C:\Users\dannyGeminiAnti\Documents\_App_System\LocalMergeAudit_DESKTOP-31FKBOB_2026-04-13_18-50-43.txt
+	       tweaked		     206	C:\Users\dannyGeminiAnti\Documents\_App_System\LocalMergeAudit_DESKTOP-31FKBOB_2026-04-13_19-40-51.txt
+	       tweaked		     538	C:\Users\dannyGeminiAnti\Documents\_App_System\LocalMergeAudit_DESKTOP-31FKBOB_2026-04-14_15-22-16.txt
+	       tweaked		     372	C:\Users\dannyGeminiAnti\Documents\_App_System\LocalMergeAudit_DESKTOP-31FKBOB_2026-04-15_14-08-20.txt
+	       tweaked		    1715	C:\Users\dannyGeminiAnti\Documents\_App_System\Login_Audit.bat
+	       tweaked		     168	C:\Users\dannyGeminiAnti\Documents\_App_System\MergeAudit_DESKTOP-31FKBOB_2026-04-08_22-04-05.txt
+	       tweaked		     321	C:\Users\dannyGeminiAnti\Documents\_App_System\newproject.bat
+	       tweaked		      19	C:\Users\dannyGeminiAnti\Documents\_App_System\project_history.start
+	       tweaked		    1975	C:\Users\dannyGeminiAnti\Documents\_App_System\rename_logs.py
+	       tweaked		    1142	C:\Users\dannyGeminiAnti\Documents\_App_System\start_another_machine.bat
+	       tweaked		    1159	C:\Users\dannyGeminiAnti\Documents\_App_System\test of brain.txt
+	       tweaked		    1469	C:\Users\dannyGeminiAnti\Documents\_App_System\TOLOCAL.bat
+	       tweaked		    1339	C:\Users\dannyGeminiAnti\Documents\_App_System\Verify_Sync.bat
+	       tweaked		   42741	C:\Users\dannyGeminiAnti\Documents\_App_System\results\2026 4 12 progress 1.JPG
+	       tweaked		   49678	C:\Users\dannyGeminiAnti\Documents\_App_System\results\2026 4 12 progress 2.JPG
+	       tweaked		   52661	C:\Users\dannyGeminiAnti\Documents\_App_System\results\2026 4 14 progress 1.JPG
+	       tweaked		  107885	C:\Users\dannyGeminiAnti\Documents\_App_System\results\2026 4 14 progress 2.JPG
+	       tweaked		   51899	C:\Users\dannyGeminiAnti\Documents\_App_System\results\2026 4 3 progress 22.JPG
+	       tweaked		   43769	C:\Users\dannyGeminiAnti\Documents\_App_System\results\2026 4 3 progress 23.JPG
+	       tweaked		   32218	C:\Users\dannyGeminiAnti\Documents\_App_System\results\2026 4 3 progress 24.JPG
+	       tweaked		     191	C:\Users\dannyGeminiAnti\Documents\_App_System\results\Audit_Migration_Report.txt
+	       tweaked		  290618	C:\Users\dannyGeminiAnti\Documents\_App_System\results\Audit_Start_Report.txt
+	       tweaked		   51420	C:\Users\dannyGeminiAnti\Documents\_App_System\results\build_diagnostic.log
+	       tweaked		      42	C:\Users\dannyGeminiAnti\Documents\_App_System\results\BUILD_VERSION.txt
+	       tweaked		   42009	C:\Users\dannyGeminiAnti\Documents\_App_System\results\Capture.JPG
+	       tweaked		   87497	C:\Users\dannyGeminiAnti\Documents\_App_System\results\Check_DESKTOP-31FKBOB_Match.txt
+	       tweaked		       2	C:\Users\dannyGeminiAnti\Documents\_App_System\results\Check_DESKTOP-5NCCR1P_Match.txt
+	       tweaked		    1004	C:\Users\dannyGeminiAnti\Documents\_App_System\results\Cleanup_Audit.txt
+	       tweaked		    1066	C:\Users\dannyGeminiAnti\Documents\_App_System\results\Finish_Session - Copy.bat
+	       tweaked		    1570	C:\Users\dannyGeminiAnti\Documents\_App_System\results\Finish_Session c drive processing.bat
+	       tweaked		   56668	C:\Users\dannyGeminiAnti\Documents\_App_System\results\M2_Final_Activation.txt
+	       tweaked		     470	C:\Users\dannyGeminiAnti\Documents\_App_System\results\MigrationAudit.log
+	       tweaked		    1898	C:\Users\dannyGeminiAnti\Documents\_App_System\results\Prepare_Migration_Merge.bat
+	       tweaked		   32768	C:\Users\dannyGeminiAnti\Documents\_App_System\results\project_brain_TEMP.db
+	       tweaked		   20256	C:\Users\dannyGeminiAnti\Documents\_App_System\results\PyInstaller_Warnings.txt
+	       tweaked		    4542	C:\Users\dannyGeminiAnti\Documents\_App_System\results\round_trip_stress_test.py
+	       tweaked		  305260	C:\Users\dannyGeminiAnti\Documents\_App_System\results\Staging_Sync_Back.log
+	       tweaked		   5.7 m	C:\Users\dannyGeminiAnti\Documents\_App_System\results\Startup_Audit_-0-0_1720.txt
+	       tweaked		   5.7 m	C:\Users\dannyGeminiAnti\Documents\_App_System\results\Startup_Audit_-0-0_1751.txt
+	       tweaked		    1364	C:\Users\dannyGeminiAnti\Documents\_App_System\results\start_another_machine - Copy.bat
+	       tweaked		    1480	C:\Users\dannyGeminiAnti\Documents\_App_System\results\sTraderApp_AuditLog.txt
+	       tweaked		    3616	C:\Users\dannyGeminiAnti\Documents\_App_System\results\stress_test_runner.py
+	       tweaked		      92	C:\Users\dannyGeminiAnti\Documents\_App_System\results\Sync_Audit_Upload_-0-0.txt
+	       tweaked		  100010	C:\Users\dannyGeminiAnti\Documents\_App_System\results\Sync_Audit_Upload_Latest.txt
+	       tweaked		  814281	C:\Users\dannyGeminiAnti\Documents\_App_System\results\Sync_Audit__App_System_-0-0_0029.txt
+	       tweaked		    3555	C:\Users\dannyGeminiAnti\Documents\_App_System\results\sync_back_stress_test.py
+	       tweaked		   6.9 m	C:\Users\dannyGeminiAnti\Documents\_App_System\results\System_Sync_-0-0_1730.txt
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         2         2         0         0         0
+   Files :        53         0        53         0         0         0
+   Bytes :   20.57 m         0   20.57 m         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : April 17, 2026 7:41:29 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : April 17, 2026 7:41:29 PM
+   Source : C:\Users\dannyGeminiAnti\Documents\Memory Brain\
+     Dest = G:\My Drive\apps\Memory Brain\
+
+    Files : *.*
+	    
+  Options : *.* /V /TEE /S /E /DCOPY:DA /COPY:DAT /MT:32 /R:3 /W:5 
+
+------------------------------------------------------------------------------
+
+	       tweaked		  11.8 m	C:\Users\dannyGeminiAnti\Documents\Memory Brain\appmemory.exe
+	       tweaked		   53777	C:\Users\dannyGeminiAnti\Documents\Memory Brain\appmemory.py
+	       tweaked		     705	C:\Users\dannyGeminiAnti\Documents\Memory Brain\appmemory.spec
+	       tweaked		  11.8 m	C:\Users\dannyGeminiAnti\Documents\Memory Brain\appmemory_20260409_2227.old
+	       tweaked		  11.8 m	C:\Users\dannyGeminiAnti\Documents\Memory Brain\appmemory_20260409_2237.old
+	       tweaked		  11.8 m	C:\Users\dannyGeminiAnti\Documents\Memory Brain\appmemory_20260409_2243.old
+	       tweaked		  11.8 m	C:\Users\dannyGeminiAnti\Documents\Memory Brain\appmemory_20260409_2248.old
+	       tweaked		  11.8 m	C:\Users\dannyGeminiAnti\Documents\Memory Brain\appmemory_20260409_2251.old
+	       tweaked		     100	C:\Users\dannyGeminiAnti\Documents\Memory Brain\appmemory_settings.json
+	       tweaked		   50902	C:\Users\dannyGeminiAnti\Documents\Memory Brain\Audit_2026-04-16.log
+	       tweaked		     208	C:\Users\dannyGeminiAnti\Documents\Memory Brain\audit_log.txt
+	       tweaked		    1770	C:\Users\dannyGeminiAnti\Documents\Memory Brain\BACKTOG.bat
+	       tweaked		   15956	C:\Users\dannyGeminiAnti\Documents\Memory Brain\brain.py
+	       tweaked		    7351	C:\Users\dannyGeminiAnti\Documents\Memory Brain\bulk_export_logs.txt
+	       tweaked		     844	C:\Users\dannyGeminiAnti\Documents\Memory Brain\conversations.md
+	       tweaked		   13793	C:\Users\dannyGeminiAnti\Documents\Memory Brain\exported_brain.md
+	       tweaked		     669	C:\Users\dannyGeminiAnti\Documents\Memory Brain\gemini_log_test.md
+	       tweaked		    1992	C:\Users\dannyGeminiAnti\Documents\Memory Brain\instructions.md
+	       tweaked		     726	C:\Users\dannyGeminiAnti\Documents\Memory Brain\issues.txt
+	       tweaked		   28672	C:\Users\dannyGeminiAnti\Documents\Memory Brain\project_brain.db
+	       tweaked		   15997	C:\Users\dannyGeminiAnti\Documents\Memory Brain\Staging 2026-04-13_180845.log
+	       tweaked		    2046	C:\Users\dannyGeminiAnti\Documents\Memory Brain\Staging_Sync_Back.log
+	       tweaked		    1469	C:\Users\dannyGeminiAnti\Documents\Memory Brain\TOLOCAL.bat
+	       tweaked		      39	C:\Users\dannyGeminiAnti\Documents\Memory Brain\walkthrough.md
+	       tweaked		    2148	C:\Users\dannyGeminiAnti\Documents\Memory Brain\.agent\instructions.md
+
+
+	       tweaked		  23.8 m		       tweaked		   61166		       tweaked		   49707	C:\Users\dannyGeminiAnti\Documents\Memory Brain\__pycache__\appmemory.cpython-314.pycC:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 3 25 status 1.JPGC:\Users\dannyGeminiAnti\Documents\Memory Brain\dist\AppMemory.exe
+	       tweaked		  537324	C:\Users\dannyGeminiAnti\Documents\Memory Brain\build\AppMemory\Analysis-00.toc
+	       tweaked		  172130	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 3 25 status 2.jpg
+	       tweaked		  23.5 m	C:\Users\dannyGeminiAnti\Documents\Memory Brain\build\AppMemory\AppMemory.pkg
+	       tweaked		  172987	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 3 25 status 3.jpg
+	       tweaked		   1.3 m	C:\Users\dannyGeminiAnti\Documents\Memory Brain\build\AppMemory\base_library.zip
+	       tweaked		  145453	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 3 25 status 4.JPG
+	       tweaked		  497536	C:\Users\dannyGeminiAnti\Documents\Memory Brain\build\AppMemory\EXE-00.toc
+	       tweaked		   75574	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 3 27 baseline 1.JPG
+	       tweaked		  495795	C:\Users\dannyGeminiAnti\Documents\Memory Brain\build\AppMemory\PKG-00.toc
+	       tweaked		    1903	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 3 5 conversation.txt
+	       tweaked		   3.2 m	C:\Users\dannyGeminiAnti\Documents\Memory Brain\build\AppMemory\PYZ-00.pyz
+	       tweaked		  100262	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 11 progress 1.JPG
+	       tweaked		   29473	C:\Users\dannyGeminiAnti\Documents\Memory Brain\build\AppMemory\PYZ-00.toc
+	       tweaked		   56736	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 11 progress 2.JPG
+	       tweaked		    4837	C:\Users\dannyGeminiAnti\Documents\Memory Brain\build\AppMemory\warn-AppMemory.txt
+	       tweaked		   84515	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 11 progress 3.JPG
+	       tweaked		  498728	C:\Users\dannyGeminiAnti\Documents\Memory Brain\build\AppMemory\xref-AppMemory.html
+	       tweaked		   84515	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 13 progress 1
+	       tweaked		    5054	C:\Users\dannyGeminiAnti\Documents\Memory Brain\build\AppMemory\localpycs\pyimod01_archive.pyc
+	       tweaked		  207815	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 13 progress 1 0.JPG
+	       tweaked		   32335	C:\Users\dannyGeminiAnti\Documents\Memory Brain\build\AppMemory\localpycs\pyimod02_importers.pyc
+	       tweaked		  193880	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 13 progress 1 1.JPG
+	       tweaked		    6635	C:\Users\dannyGeminiAnti\Documents\Memory Brain\build\AppMemory\localpycs\pyimod03_ctypes.pyc
+	       tweaked		   82701	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 13 progress 1 2.JPG
+	       tweaked		    1705	C:\Users\dannyGeminiAnti\Documents\Memory Brain\build\AppMemory\localpycs\pyimod04_pywin32.pyc
+	       tweaked		  200426	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 13 progress 1 3.JPG
+	       tweaked		     307	C:\Users\dannyGeminiAnti\Documents\Memory Brain\build\AppMemory\localpycs\struct.pyc
+	       tweaked		  200461	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 13 progress 1 4.JPG
+	       tweaked		   92065	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 13 progress 1 5.JPG
+	       tweaked		  130120	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 13 progress 1 6.JPG
+	       tweaked		  106360	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 13 progress 1 7.JPG
+	       tweaked		  198788	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 13 progress 1.JPG
+	       tweaked		  190480	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 13 progress 2.JPG
+	       tweaked		  196261	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 13 progress 3.JPG
+	       tweaked		  101107	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 13 progress 4.JPG
+	       tweaked		  105502	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 13 progress 5.JPG
+	       tweaked		  188454	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 13 progress 6.JPG
+	       tweaked		  207431	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 13 progress 7.JPG
+	       tweaked		  211730	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 13 progress 8.JPG
+	       tweaked		  130964	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 13 progress 9.JPG
+	       tweaked		  206340	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 14 progress 1 0.JPG
+	       tweaked		  224487	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 14 progress 1 1.JPG
+	       tweaked		  143689	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 14 progress 1 2.JPG
+	       tweaked		  146352	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 14 progress 1 3.JPG
+	       tweaked		   92683	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 14 progress 1 4.JPG
+	       tweaked		   55716	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 14 progress 1 5.JPG
+	       tweaked		  124799	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 14 progress 1 6.JPG
+	       tweaked		  132030	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 14 progress 1 7.JPG
+	       tweaked		  222075	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 14 progress 1 8.JPG
+	       tweaked		  198323	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 14 progress 1 9.JPG
+	       tweaked		  202430	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 14 progress 2 0.JPG
+	       tweaked		  120258	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 14 progress 2 1.JPG
+	       tweaked		  155253	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 14 progress 2.JPG
+	       tweaked		  151506	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 14 progress 3.JPG
+	       tweaked		  206030	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 14 progress 4.JPG
+	       tweaked		  119686	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 14 progress 5.JPG
+	       tweaked		  126215	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 14 progress 6.JPG
+	       tweaked		   33975	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 14 progress 7.JPG
+	       tweaked		  102751	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 14 progress 8.JPG
+	       tweaked		   67770	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 14 progress 9.JPG
+	       tweaked		  132167	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 15 progress 1 0.JPG
+	       tweaked		  133037	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 15 progress 1 1.JPG
+	       tweaked		  142902	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 15 progress 1.JPG
+	       tweaked		  128159	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 15 progress 2.JPG
+	       tweaked		   31189	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 15 progress 3.JPG
+	       tweaked		   43637	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 15 progress 4.JPG
+	       tweaked		  130965	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 15 progress 5.JPG
+	       tweaked		  131806	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 15 progress 6.JPG
+	       tweaked		  138248	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 15 progress 7.JPG
+	       tweaked		  129908	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 15 progress 9.JPG
+	       tweaked		  135765	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 16 progress 1.JPG
+	       tweaked		  129700	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 16 progress 2.JPG
+	       tweaked		   84562	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 16 progress 3.JPG
+	       tweaked		   83566	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 16 progress 5 3.JPG
+	       tweaked		  136134	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 16 progress 5 4.JPG
+	       tweaked		   84083	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 16 progress 5 5.JPG
+	       tweaked		   85794	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 16 progress 5 6.JPG
+	       tweaked		  118347	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 16 progress 5 7.JPG
+	       tweaked		   86833	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 16 progress 5 9.JPG
+	       tweaked		   77050	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 16 progress 6 1.JPG
+	       tweaked		   47409	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 3 anti progress 1.JPG
+	       tweaked		  108074	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 7 progress 1 0.JPG
+	       tweaked		  112046	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 7 progress 1 1.JPG
+	       tweaked		  115501	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 7 progress 1 2.JPG
+	       tweaked		  113123	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 7 progress 1 3.JPG
+	       tweaked		   11395	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 7 progress 1 4.JPG
+	       tweaked		  154003	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 7 progress 1 5.JPG
+	       tweaked		  156212	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 7 progress 1 6.JPG
+	       tweaked		  154119	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 7 progress 1 7.JPG
+	       tweaked		  154119	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 7 progress 1 8.JPG
+	       tweaked		   54949	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 7 progress 1 9.JPG
+	       tweaked		   58959	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 7 progress 1.JPG
+	       tweaked		  155404	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 7 progress 2 0.JPG
+	       tweaked		  130251	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 7 progress 2 1.JPG
+	       tweaked		  136287	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 7 progress 2 2.JPG
+	       tweaked		   10187	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 7 progress 2 3.JPG
+	       tweaked		   66654	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 7 progress 2 4.JPG
+	       tweaked		  129078	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 7 progress 2 5.JPG
+	       tweaked		   47483	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 7 progress 3 c drive.JPG
+	       tweaked		   58061	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 7 progress 4.JPG
+	       tweaked		  109663	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 7 progress 5.JPG
+	       tweaked		   56569	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 7 progress 6.JPG
+	       tweaked		  150943	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 7 progress 7.JPG
+	       tweaked		  167482	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 7 progress 8.JPG
+	       tweaked		  115362	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 7 progress 9.JPG
+	       tweaked		  133186	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 9 progress 1.JPG
+	       tweaked		   21337	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 9 progress 2.JPG
+	       tweaked		  164261	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 9 progress 3.JPG
+	       tweaked		  131970	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 9 progress 4.JPG
+	       tweaked		  139961	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 9 progress 5.JPG
+	       tweaked		   60992	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 9 progress 6.JPG
+	       tweaked		  121401	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\2026 4 9 progress 7.JPG
+	       tweaked		   50652	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\appmemory 2026 4 8.py
+	       tweaked		  11.8 m	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\appmemory 3 5.exe
+	       tweaked		  11.8 m	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\appmemory.exe
+	       tweaked		     705	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\appmemory.spec
+	       tweaked		     708	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\AppMemoryPro.spec
+	       tweaked		     715	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\AppMemoryPro_v1.035.spec
+	       tweaked		   24883	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\appmemory_2026 3 5.py
+	       tweaked		  11.8 m	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\appmemory_20260409_2227.old
+	       tweaked		  11.8 m	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\appmemory_20260409_2237.old
+	       tweaked		  11.8 m	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\appmemory_20260409_2243.old
+	       tweaked		  11.8 m	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\appmemory_20260409_2248.old
+	       tweaked		  11.8 m	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\appmemory_20260409_2251.old
+	       tweaked		   32215	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\appmemory_v1.003.py
+	       tweaked		   36437	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\appmemory_v1.007.py
+	       tweaked		   37067	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\appmemory_v1.008.py
+	       tweaked		   16620	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\brain.py
+	       tweaked		    7351	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\bulk_export_logs.txt
+	       tweaked		     844	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\conversations.md
+	       tweaked		     822	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\C_Drive_Audit_Report_2026-04-13.md
+	       tweaked		     803	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\C_Drive_Audit_Report_20260413.md
+	       tweaked		   13793	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\exported_brain.md
+	       tweaked		     669	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\gemini_log_test.md
+	       tweaked		  122136	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\Google Antigravity Changelog.pdf
+	       tweaked		    1992	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\instructions.md
+	       tweaked		     726	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\issues.txt
+	       tweaked		     697	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\ops.txt
+	       tweaked		    5347	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\stability_test.py
+	       tweaked		    5635	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\stability_test_v2.py
+	       tweaked		    5532	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\stability_test_v3.py
+	       tweaked		   22968	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\Staging 2026-04-13_180845.log
+	       tweaked		  336980	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\Sync_Audit_Memory Brain_-0-0_1846.txt
+	       tweaked		   6.9 m	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\System_Sync_-0-0_1831.txt
+	       tweaked		    3276	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\tos.txt
+	       tweaked		    1107	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\Verify_Sync.bat
+	          same		       0	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\=
+
+
+
+
+	       tweaked		     948		       tweaked		    8192	
+	       tweaked		   83564		       tweaked		  23.8 m		       tweaked		    8192	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\__pycache__\appmemory.cpython-314.pycC:\Users\dannyGeminiAnti\Documents\Memory Brain\results\test_folder_a_Work\project_brain.dbC:\Users\dannyGeminiAnti\Documents\Memory Brain\results\scratch\cleanup.py	       tweaked		  537324	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\dist\AppMemory.exeC:\Users\dannyGeminiAnti\Documents\Memory Brain\results\test_folder_b_Work\project_brain.dbC:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemory\Analysis-00.toc
+	       tweaked		  537327	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemoryPro\Analysis-00.toc
+	       tweaked		  537334	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemoryPro_v1.035\Analysis-00.toc
+	       tweaked		     680	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\scratch\db_check.py
+	       tweaked		   24576	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\dist\project_brain.db
+	       tweaked		  23.5 m	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemory\AppMemory.pkg
+	       tweaked		  23.5 m	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemoryPro\AppMemoryPro.pkg
+	       tweaked		  23.5 m	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemoryPro_v1.035\AppMemoryPro_v1.035.pkg
+	       tweaked		    1253	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\scratch\deep_scan.py
+	       tweaked		   1.3 m	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemory\base_library.zip
+	       tweaked		   1.3 m	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemoryPro\base_library.zip
+	       tweaked		   1.3 m	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemoryPro_v1.035\base_library.zip
+	       tweaked		     439	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\scratch\diagnostic.py
+	       tweaked		  497536	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemory\EXE-00.toc
+	       tweaked		  497566	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemoryPro\EXE-00.toc
+	       tweaked		  497636	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemoryPro_v1.035\EXE-00.toc
+	       tweaked		     404	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\scratch\inspect_logs.py
+	       tweaked		  495795	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemory\PKG-00.toc
+	       tweaked		  495822	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemoryPro\PKG-00.toc
+	       tweaked		  495885	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemoryPro_v1.035\PKG-00.toc
+	       tweaked		    4849	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\scratch\test_v1043.py
+	       tweaked		   3.2 m	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemory\PYZ-00.pyz
+	       tweaked		   3.2 m	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemoryPro\PYZ-00.pyz
+	       tweaked		   3.2 m	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemoryPro_v1.035\PYZ-00.pyz
+	       tweaked		    2957	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\scratch\v1036_verify.py
+	       tweaked		   29473	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemory\PYZ-00.toc
+	       tweaked		   29476	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemoryPro\PYZ-00.toc
+	       tweaked		   29483	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemoryPro_v1.035\PYZ-00.toc
+	       tweaked		    2484	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\scratch\v1037_verify.py
+	       tweaked		    4837	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemory\warn-AppMemory.txt
+	       tweaked		    4837	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemoryPro\warn-AppMemoryPro.txt
+	       tweaked		    4837	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemoryPro_v1.035\warn-AppMemoryPro_v1.035.txt
+	       tweaked		    1809	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\scratch\v1038_verify.py
+	       tweaked		  498728	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemory\xref-AppMemory.html
+	       tweaked		  498728	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemoryPro\xref-AppMemoryPro.html
+	       tweaked		  498728	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemoryPro_v1.035\xref-AppMemoryPro_v1.035.html
+	       tweaked		    1588	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\scratch\v1039_verify.py
+	       tweaked		    5054	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemory\localpycs\pyimod01_archive.pyc
+	       tweaked		    5054	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemoryPro\localpycs\pyimod01_archive.pyc
+	       tweaked		    5054	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemoryPro_v1.035\localpycs\pyimod01_archive.pyc
+	       tweaked		   32335	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemory\localpycs\pyimod02_importers.pyc
+	       tweaked		   32335	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemoryPro\localpycs\pyimod02_importers.pyc
+	       tweaked		   32335	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemoryPro_v1.035\localpycs\pyimod02_importers.pyc
+	       tweaked		    6635	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemory\localpycs\pyimod03_ctypes.pyc
+	       tweaked		    6635	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemoryPro\localpycs\pyimod03_ctypes.pyc
+	       tweaked		    6635	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemoryPro_v1.035\localpycs\pyimod03_ctypes.pyc
+	       tweaked		    1705	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemory\localpycs\pyimod04_pywin32.pyc
+	       tweaked		    1705	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemoryPro\localpycs\pyimod04_pywin32.pyc
+	       tweaked		    1705	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemoryPro_v1.035\localpycs\pyimod04_pywin32.pyc
+	       tweaked		     307	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemory\localpycs\struct.pyc
+	       tweaked		     307	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemoryPro\localpycs\struct.pyc
+	       tweaked		     307	C:\Users\dannyGeminiAnti\Documents\Memory Brain\results\build\AppMemoryPro_v1.035\localpycs\struct.pyc
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :        20        20        20         0         0         0
+   Files :       232         0       232         0         0         0
+   Bytes :  342.21 m         0  342.21 m         0         0         0
+   Times :   0:00:01   0:00:00                       0:00:00   0:00:01
+   Ended : April 17, 2026 7:41:31 PM
+
+[2026-04-17 19:41:25] AUDIT SUCCESS: G: Drive updated. 

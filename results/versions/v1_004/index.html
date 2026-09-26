@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>act | advanced computer technicians</title>
+    <meta name="description" content="Professional technical consulting, custom AI-integrated software, and high-performance cloud server management.">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-[#0a0a0c] text-white">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 glass-nav">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <img src="images/logo.png" alt="ACT Logo" class="h-10">
+                <span class="brand-lowercase text-3xl tracking-tighter sm:block hidden">advanced computer technicians</span>
+            </div>
+            
+            <div class="flex items-center space-x-8">
+                <div class="hidden md:flex space-x-8 font-medium text-sm">
+                    <a href="#services" class="hover:text-cyan-400 transition-colors uppercase tracking-widest text-[10px]">Services</a>
+                    <a href="#philosophy" class="hover:text-cyan-400 transition-colors uppercase tracking-widest text-[10px]">Philosophy</a>
+                    <a href="#contact" class="hover:text-cyan-400 transition-colors uppercase tracking-widest text-[10px]">Contact</a>
+                </div>
+                
+                <!-- Accessibility Controls -->
+                <div class="flex items-center space-x-2 border-l border-white/10 pl-6">
+                    <button onclick="changeFontSize(2)" class="acc-btn" title="Increase Font">A+</button>
+                    <button onclick="changeFontSize(-2)" class="acc-btn" title="Decrease Font">A-</button>
+                    <button onclick="toggleTheme()" class="acc-btn" id="theme-btn" title="Toggle Theme">
+                        <span id="theme-icon">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707M16.243 17.657l.707.707M6.343 6.343l.707-.707"/></svg>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <canvas id="particles-js"></canvas>
+        <div class="hero-content container mx-auto px-6">
+            <h1 class="text-5xl md:text-8xl brand-lowercase mb-6 tracking-tight leading-none bg-gradient-tech overflow-visible py-4">
+                pioneering <br>technical excellence
+            </h1>
+            <p class="text-xl md:text-2xl text-slate-400 max-w-2xl mx-auto mb-10 font-light">
+                Engineering the next generation of AI-integrated platforms, cloud-native infrastructure, and strategic digital solutions.
+            </p>
+            <a href="#services" class="inline-block px-10 py-5 bg-cyan-500 hover:bg-cyan-400 text-black font-black uppercase tracking-widest rounded-full transition-all hover:shadow-[0_0_50px_rgba(6,182,212,0.4)] text-xs">
+                Explore Our Ecosystem
+            </a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-24 relative z-10">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-3xl font-black mb-16 uppercase tracking-widest text-center">Core Technical Domains</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- Card 1: Web & App -->
+                <div class="glass p-8 hover-scale group">
+                    <div class="bg-cyan-500/10 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 border border-cyan-500/20 group-hover:border-cyan-500/50 transition-colors">
+                        <svg class="w-8 h-8 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Web & App Development</h3>
+                    <p class="text-slate-400 font-light leading-relaxed">
+                        Professional engineering for any technical terrain. We build the complex systems while you focus on your business.
+                    </p>
+                </div>
+
+                <!-- Card 2: AI Architectural Synthesis -->
+                <div class="glass p-8 hover-scale group">
+                    <div class="bg-blue-500/10 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 border border-blue-500/20 group-hover:border-blue-500/50 transition-colors">
+                        <svg class="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">AI Architectural Synthesis</h3>
+                    <p class="text-slate-400 font-light leading-relaxed">
+                        We architect the custom AI layers so you don't have to.
+                    </p>
+                </div>
+
+                <!-- Card 3: Forensic Investigation -->
+                <div class="glass p-8 hover-scale group">
+                    <div class="bg-purple-500/10 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 border border-purple-500/20 group-hover:border-purple-500/50 transition-colors">
+                        <svg class="w-8 h-8 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Forensic Investigation</h3>
+                    <p class="text-slate-400 font-light leading-relaxed">
+                        Deep-dive digital forensics and data recovery. Protecting your assets with advanced investigative tools.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section id="philosophy" class="py-24 bg-[#0d0d10] border-y border-white/5">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-black mb-8 uppercase tracking-widest text-center">Our Strategic Goal</h2>
+            <p class="text-2xl font-light text-slate-300 italic mb-12 border-l-4 border-cyan-500 pl-8 text-left">
+                "We strive to be the definitive all-in-one solution for technical innovation. From hardware architecture to autonomous software, we catalyze digital transformation for businesses that refuse to compromise."
+            </p>
+            <div class="grid grid-cols-2 md:grid-cols-2 gap-8 text-left max-w-2xl mx-auto">
+                <div>
+                    <h4 class="font-bold text-cyan-400 mb-2 uppercase tracking-widest text-xs">Workstations</h4>
+                    <p class="text-slate-500 text-sm">Specialized performance builds for engineers and creators.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-cyan-400 mb-2 uppercase tracking-widest text-xs">Consulting</h4>
+                    <p class="text-slate-500 text-sm">High-level technical project management and strategic audit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <section id="contact" class="py-24">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16">
+            <div>
+                <h2 class="text-4xl font-black mb-6 uppercase tracking-widest leading-none">Get in <br>Touch</h2>
+                <p class="text-slate-400 mb-10 font-light">Ready to escalate your technical infrastructure? Contact our specialists for a deep-dive consultation.</p>
+                <div class="space-y-4">
+                    <p class="flex items-center space-x-4">
+                        <span class="text-cyan-400 font-bold uppercase tracking-widest text-xs">Email:</span>
+                        <a href="mailto:support@acttechnical.com" class="text-white hover:text-cyan-300 transition-colors">support@acttechnical.com</a>
+                    </p>
+                    <p class="flex items-center space-x-4">
+                        <span class="text-cyan-400 font-bold uppercase tracking-widest text-xs">Phone:</span>
+                        <span class="text-white">647-883-0905</span>
+                    </p>
+                </div>
+            </div>
+            <div class="glass p-10 shadow-2xl">
+                <form class="space-y-6">
+                    <div>
+                        <label class="block text-xs uppercase tracking-widest text-slate-500 mb-2">Full Name</label>
+                        <input type="text" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 focus:border-cyan-500 outline-none transition-all text-white">
+                    </div>
+                    <div>
+                        <label class="block text-xs uppercase tracking-widest text-slate-500 mb-2">Project Brief</label>
+                        <textarea rows="4" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 focus:border-cyan-500 outline-none transition-all text-white"></textarea>
+                    </div>
+                    <button class="w-full py-4 bg-white text-black font-black uppercase tracking-widest hover:bg-cyan-500 transition-all rounded-lg text-xs">Transmit Inquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 border-t border-white/5 text-center text-slate-600 text-[10px] uppercase tracking-[0.4em]">
+        &copy; 2026 advanced computer technicians - pioneering technical excellence
+    </footer>
+
+    <!-- Weather Hero Script -->
+    <script src="js/weather_hero.js"></script>
+    <!-- Main Script -->
+    <script src="js/main.js"></script>
+</body>
+</html>

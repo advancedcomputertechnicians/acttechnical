@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Premium SEO Meta Elements -->
+  <title data-i18n="nav_brand">POPULAR DRIVING SCHOOL - MTO Approved BDE Provider</title>
+  <meta name="description" content="Popular Driving School is a Ministry-Approved Beginner Driver Education (BDE) Course Provider in Ontario. Learn safe defensive driving, reduce road test waiting time, and earn insurance discounts.">
+  <meta name="keywords" content="Popular Driving School, Ontario BDE, Ministry Approved, G2 road test, G road test, driving school Toronto, driving lessons, defensive driving, learn to drive, cheap driving school, insurance discount driving certificate">
+  
+  <!-- Favicon placeholder / styling imports -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚗</text></svg>">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       Header / Navigation Bar
+       ========================================================================== -->
+  <header>
+    <div class="nav-container">
+      <a href="#" class="logo-block">
+        <div class="logo-main">
+          <!-- Steering wheel SVG logo -->
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 4C15.93 4 19.21 6.83 19.89 10.5H16C15.55 9.07 14.18 8 12 8C9.82 8 8.45 9.07 8 10.5H4.11C4.79 6.83 8.07 4 12 4ZM12 20C8.07 20 4.79 17.17 4.11 13.5H8C8.45 14.93 9.82 16 12 16C14.18 16 15.55 14.93 16 13.5H19.89C19.21 17.17 15.93 20 12 20Z" fill="currentColor"/>
+          </svg>
+          <span data-i18n="nav_brand">POPULAR DRIVING SCHOOL</span>
+        </div>
+        <div class="logo-sub" data-i18n="nav_brand_sub">MTO APPROVED BDE PROVIDER</div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="../index.html" class="nav-link nav-return-link" data-i18n="nav_return" style="color: var(--accent); font-weight: 800; display: inline-flex; align-items: center; gap: 0.25rem;">
+          <span>←</span> <span data-i18n="nav_return">Return to Main Site</span>
+        </a>
+        <a href="#" class="nav-link" data-i18n="nav_home">Home</a>
+        <a href="#courses" class="nav-link" data-i18n="nav_courses">Courses & Packages</a>
+        <a href="#about" class="nav-link" data-i18n="nav_about">About Us</a>
+        <a href="#faq" class="nav-link" data-i18n="nav_faq">FAQ</a>
+        <a href="#contact" class="nav-link" data-i18n="nav_contact">Contact Us</a>
+        <a href="#register" class="btn btn-primary nav-register-btn" data-i18n="nav_registration">Register</a>
+      </nav>
+
+      <!-- Control switches: Theme & Language -->
+      <div class="nav-controls">
+        <!-- Reversible Black/White switch -->
+        <button id="themeToggle" class="switch-btn theme-toggle" aria-label="Toggle Theme">
+          <svg id="themeMoonIcon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg id="themeSunIcon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="display:none;">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <span id="themeLabel">Black Mode</span>
+        </button>
+
+        <!-- Language switch key (EN/中文) -->
+        <button id="langToggle" class="switch-btn lang-toggle" aria-label="Toggle Language">
+          🌐 <span id="langLabel" data-i18n="lang_toggle_label">中文</span>
+        </button>
+
+        <!-- Hamburger Icon for Mobile -->
+        <button id="mobileToggle" class="mobile-toggle" aria-label="Toggle Mobile Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       Hero Section
+       ========================================================================== -->
+  <section class="hero">
+    <div class="hero-wrapper">
+      <div class="hero-text">
+        <div class="hero-tag" data-i18n="hero_tagline">PROVINCE OF ONTARIO REGISTERED BDE COURSE PROVIDER</div>
+        <h1 class="hero-title" data-i18n="hero_title">Drive Safely, Pass Confidently</h1>
+        <p class="hero-desc" data-i18n="hero_subtitle">
+          Ministry-Approved Beginner Driver Education (BDE). We assist you every step of the way—from learning how to drive to passing your G2/G tests and maintaining your car.
+        </p>
+        <div class="hero-actions">
+          <a href="#register" class="btn btn-primary" data-i18n="hero_cta_register">Register Online Now</a>
+          <a href="#courses" class="btn btn-secondary" data-i18n="hero_cta_courses">Explore Packages</a>
+        </div>
+      </div>
+
+      <!-- Steering Wheel & Interactive Vector Elements -->
+      <div class="hero-graphic">
+        <div class="graphic-circle">
+          <div class="steering-wheel">
+            <div class="steering-center"></div>
+          </div>
+          <!-- Animated Badges with Real stats -->
+          <div class="graphic-badge graphic-badge-1">
+            <div class="badge-icon">🎖️</div>
+            <div class="badge-text">
+              <span class="badge-num" data-i18n="stat_pass_rate">98%</span>
+              <span class="badge-lbl" data-i18n="stat_pass_rate_desc">First-Time Pass Rate</span>
+            </div>
+          </div>
+          <div class="graphic-badge graphic-badge-2">
+            <div class="badge-icon">🚗</div>
+            <div class="badge-text">
+              <span class="badge-num">100%</span>
+              <span class="badge-lbl" data-i18n="stat_instructors">MTO Certified</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Winter / Accelerated Notice Banner
+       ========================================================================== -->
+  <div class="alert-banner">
+    <span class="alert-icon">⚡</span>
+    <div class="alert-content">
+      <h3 class="alert-title" data-i18n="alert_title">🚨 SPECIAL ACCELERATED WINTER EXPRESS & OFFERS</h3>
+      <p class="alert-text" data-i18n="alert_text">
+        Register for our Accelerated BDE Course today! Save $50 on our Early Bird Special for upcoming Winter & Spring Break packages. Group discounts available for G + G2 complete bundles.
+      </p>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       Ministry Requirements (MTO Rules)
+       ========================================================================== -->
+  <section class="info-section">
+    <div class="section-header">
+      <h2 class="section-title" data-i18n="info_section_title">Important Ministry (MTO) Regulations</h2>
+      <p class="section-subtitle" data-i18n="info_section_subtitle">Please read these mandatory requirements to successfully claim your BDE certificate.</p>
+    </div>
+
+    <div class="info-grid">
+      <!-- MTO card 1 -->
+      <div class="info-card">
+        <div class="info-card-num">01</div>
+        <h3 data-i18n="info_card_1_title">1. Course Completion Time Limit</h3>
+        <p data-i18n="info_card_1_desc">The Ministry of Transportation (MTO) requires all students to complete all classroom, homework, and in-car training modules within ONE YEAR OF THE STARTING DATE. No exceptions are permitted by MTO.</p>
+      </div>
+
+      <!-- MTO card 2 -->
+      <div class="info-card">
+        <div class="info-card-num">02</div>
+        <h3 data-i18n="info_card_2_title">2. Certification Requirements</h3>
+        <p data-i18n="info_card_2_desc">To qualify for official MTO certification, all students must complete at least 20 hours of classroom learning (or online BDE theory), 10 hours of homework learning links, and 10 hours of 1-on-1 practical in-car training.</p>
+      </div>
+
+      <!-- MTO card 3 -->
+      <div class="info-card">
+        <div class="info-card-num">03</div>
+        <h3 data-i18n="info_card_3_title">3. Road Test Waiting Period Reduction</h3>
+        <p data-i18n="info_card_3_desc">Once our driving school certifies you on the MTO portal, you qualify to take your G2 road test early—in just 8 months instead of the standard 12 months. No manual Driver's Licence History search is required.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Courses & Packages Grid
+       ========================================================================== -->
+  <section class="courses-section" id="courses">
+    <div class="section-header">
+      <h2 class="section-title" data-i18n="courses_section_title">Our Courses & Packages</h2>
+      <p class="section-subtitle" data-i18n="courses_section_subtitle">Select a program designed to match your goals, experience level, and budget. All in-car training is one-on-one with dual-brake safety vehicles.</p>
+    </div>
+
+    <div class="courses-grid">
+      <!-- Package 1: BDE -->
+      <div class="course-card highlighted">
+        <span class="card-badge popular" data-i18n="course_popular_badge">Most Popular</span>
+        <h3 data-i18n="course_1_title">MTO Approved BDE Package</h3>
+        <p class="desc" data-i18n="course_1_desc">Standard beginner driver curriculum. Mandatory for wait-time reduction and premium insurance discounts.</p>
+        <div class="course-price-block">
+          <span class="price-currency">$</span>
+          <span class="price-val" data-i18n="course_1_price">649</span>
+          <span class="price-suffix" data-i18n="course_1_price_suffix">+ HST</span>
+        </div>
+        <ul class="course-features">
+          <li class="course-feat-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span data-i18n="course_1_feature_1">20 Hours Digital Classroom / Online Theory</span>
+          </li>
+          <li class="course-feat-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span data-i18n="course_1_feature_2">10 Hours Home-link Learning Assignments</span>
+          </li>
+          <li class="course-feat-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span data-i18n="course_1_feature_3">10 Hours 1-on-1 Private In-Car Lessons</span>
+          </li>
+          <li class="course-feat-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span data-i18n="course_1_feature_4">Official Ministry of Transportation Certification</span>
+          </li>
+          <li class="course-feat-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span data-i18n="course_1_feature_5">Eligible for G2 Road Test in 8 Months</span>
+          </li>
+          <li class="course-feat-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span data-i18n="course_1_feature_6">Qualifies for Auto Insurance Premium Discount</span>
+          </li>
+        </ul>
+        <button class="btn btn-primary select-package-btn" data-package="bde" data-i18n="course_btn_select">Book This Package</button>
+      </div>
+
+      <!-- Package 2: G2 Road Test -->
+      <div class="course-card">
+        <span class="card-badge value" data-i18n="course_best_value_badge">Best Value</span>
+        <h3 data-i18n="course_2_title">G2 Test Complete Package</h3>
+        <p class="desc" data-i18n="course_2_desc">Perfect package for G1 holders ready to practice and use the instructor's dual-brake car for their road test.</p>
+        <div class="course-price-block">
+          <span class="price-currency">$</span>
+          <span class="price-val" data-i18n="course_2_price">399</span>
+          <span class="price-suffix" data-i18n="course_2_price_suffix">+ HST</span>
+        </div>
+        <ul class="course-features">
+          <li class="course-feat-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span data-i18n="course_2_feature_1">5 Hours Private One-on-One Driving Practice</span>
+          </li>
+          <li class="course-feat-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span data-i18n="course_2_feature_2">Defensive driving & parking maneuvers</span>
+          </li>
+          <li class="course-feat-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span data-i18n="course_2_feature_3">Complete mock road test evaluation</span>
+          </li>
+          <li class="course-feat-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span data-i18n="course_2_feature_4">Use of Instructor's Dual-Brake Car for Road Test</span>
+          </li>
+          <li class="course-feat-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span data-i18n="course_2_feature_5">Pickup & dropoff service within local area</span>
+          </li>
+          <li class="course-feat-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span data-i18n="course_2_feature_6">Free scheduling assistance for road test</span>
+          </li>
+        </ul>
+        <button class="btn btn-secondary select-package-btn" data-package="g2" data-i18n="course_btn_select">Book This Package</button>
+      </div>
+
+      <!-- Package 3: G Road Test -->
+      <div class="course-card">
+        <h3 data-i18n="course_3_title">G Road Test Complete Package</h3>
+        <p class="desc" data-i18n="course_3_desc">Tailored for G2 drivers seeking highway driving expertise and vehicle rental for the final G license exam.</p>
+        <div class="course-price-block">
+          <span class="price-currency">$</span>
+          <span class="price-val" data-i18n="course_3_price">449</span>
+          <span class="price-suffix" data-i18n="course_3_price_suffix">+ HST</span>
+        </div>
+        <ul class="course-features">
+          <li class="course-feat-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span data-i18n="course_3_feature_1">5 Hours Highway & High-Speed Practice</span>
+          </li>
+          <li class="course-feat-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span data-i18n="course_3_feature_2">Defensive lane switching, merges & exits</span>
+          </li>
+          <li class="course-feat-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span data-i18n="course_3_feature_3">Detailed breakdown of G test scoring criteria</span>
+          </li>
+          <li class="course-feat-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span data-i18n="course_3_feature_4">Use of Instructor's Dual-Brake Car for G Road Test</span>
+          </li>
+          <li class="course-feat-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span data-i18n="course_3_feature_5">Pickup & dropoff service included</span>
+          </li>
+          <li class="course-feat-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span data-i18n="course_3_feature_6">Express road test booking options available</span>
+          </li>
+        </ul>
+        <button class="btn btn-secondary select-package-btn" data-package="g" data-i18n="course_btn_select">Book This Package</button>
+      </div>
+
+      <!-- Package 4: Hourly lessons -->
+      <div class="course-card">
+        <h3 data-i18n="course_4_title">Hourly Individual Lessons</h3>
+        <p class="desc" data-i18n="course_4_desc">Flexible hourly training designed to refresh your skills, correct driving flaws, or practice specific elements.</p>
+        <div class="course-price-block">
+          <span class="price-currency">$</span>
+          <span class="price-val" data-i18n="course_4_price">60</span>
+          <span class="price-suffix" data-i18n="course_4_price_suffix">/ hour</span>
+        </div>
+        <ul class="course-features">
+          <li class="course-feat-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span data-i18n="course_4_feature_1">Fully customized one-on-one lesson plans</span>
+          </li>
+          <li class="course-feat-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span data-i18n="course_4_feature_2">Tailored to your weaknesses (Parallel parking, etc.)</span>
+          </li>
+          <li class="course-feat-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span data-i18n="course_4_feature_3">Dual-brake vehicle provided for optimal safety</span>
+          </li>
+          <li class="course-feat-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span data-i18n="course_4_feature_4">High-patience, fluent bilingual instructors</span>
+          </li>
+          <li class="course-feat-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span data-i18n="course_4_feature_5">Flexible scheduling to fit your availability</span>
+          </li>
+          <li class="course-feat-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span data-i18n="course_4_feature_6">Pay-as-you-go with no long-term commitment</span>
+          </li>
+        </ul>
+        <button class="btn btn-secondary select-package-btn" data-package="hourly" data-i18n="course_btn_select">Book This Package</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       About Us Section & Interactive Detail Panel
+       ========================================================================== -->
+  <section class="about-section" id="about">
+    <div class="about-wrapper">
+      <div class="about-details">
+        <h2 data-i18n="about_title">About Popular Driving School</h2>
+        <p data-i18n="about_p1">Established as a premier driving education institution, Popular Driving School has successfully trained thousands of safe, confident drivers across Ontario. Our mission is to go beyond merely helping you pass your road test; we build defensive driving habits that protect you on the road for life.</p>
+        <p data-i18n="about_p2">All our instructors are fully certified by the province of Ontario, background-checked, and highly experienced. We take pride in our exceptionally high first-time pass rates and our patient, supportive learning environment.</p>
+        
+        <div class="about-features">
+          <div class="about-feat-card">
+            <div class="about-feat-icon">🏆</div>
+            <div class="about-feat-text">
+              <h4 data-i18n="about_feat_1_title">MTO Certified Professionals</h4>
+              <p data-i18n="about_feat_1_desc">Expert guidance from state-licensed, friendly, and bilingual driving instructors.</p>
+            </div>
+          </div>
+          <div class="about-feat-card">
+            <div class="about-feat-icon">⚡</div>
+            <div class="about-feat-text">
+              <h4 data-i18n="about_feat_2_title">High First-Time Pass Rate</h4>
+              <p data-i18n="about_feat_2_desc">Most of our students pass their G2 or G road tests on their very first attempt.</p>
+            </div>
+          </div>
+          <div class="about-feat-card">
+            <div class="about-feat-icon">🗣️</div>
+            <div class="about-feat-text">
+              <h4 data-i18n="about_feat_3_title">Bilingual Training</h4>
+              <p data-i18n="about_feat_3_desc">Lessons are taught fluently in English, Mandarin, or Cantonese depending on your preference.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dynamic Feature Switcher Showcase -->
+      <div class="about-interactive-panel">
+        <div class="interactive-card">
+          <div class="interactive-showcase" style="transition: opacity 0.2s ease, transform 0.2s ease;">
+            <div class="interactive-icon" id="interactiveIcon">🏆</div>
+            <h3 id="interactiveTitle" data-i18n="about_feat_1_title">MTO Certified Professionals</h3>
+            <p id="interactiveText" data-i18n="about_feat_1_desc">Expert guidance from state-licensed, friendly, and bilingual driving instructors.</p>
+          </div>
+          
+          <div class="interactive-buttons">
+            <button class="choice-btn active" data-feature="mto">
+              <span data-i18n="about_feat_1_title">MTO Certified Professionals</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </button>
+            <button class="choice-btn" data-feature="pass">
+              <span data-i18n="about_feat_2_title">High First-Time Pass Rate</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </button>
+            <button class="choice-btn" data-feature="lang">
+              <span data-i18n="about_feat_3_title">Bilingual Training</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Interactive Booking & Registration Form
+       ========================================================================== -->
+  <section class="register-section" id="register">
+    <div class="register-wrapper">
+      <div class="register-card">
+        <div class="section-header" style="margin-bottom: 2rem;">
+          <h2 class="section-title" data-i18n="register_section_title">Quick Online Registration</h2>
+          <p class="section-subtitle" data-i18n="register_section_subtitle">Start your journey today. Fill out this secure form and our registrar will contact you in under 24 hours to schedule your classes.</p>
+        </div>
+
+        <form id="registrationForm" novalidate>
+          <div class="form-grid">
+            <!-- Full Name -->
+            <div class="form-group">
+              <label for="registerName" data-i18n="form_name">Full Name</label>
+              <input type="text" id="registerName" required data-i18n-placeholder="form_name_placeholder" placeholder="Enter your first and last name">
+            </div>
+
+            <!-- Phone -->
+            <div class="form-group">
+              <label for="registerPhone" data-i18n="form_phone">Phone Number</label>
+              <input type="tel" id="registerPhone" required data-i18n-placeholder="form_phone_placeholder" placeholder="e.g., 416-555-0199">
+            </div>
+
+            <!-- Email -->
+            <div class="form-group">
+              <label for="registerEmail" data-i18n="form_email">Email Address</label>
+              <input type="email" id="registerEmail" required data-i18n-placeholder="form_email_placeholder" placeholder="e.g., yourname@domain.com">
+            </div>
+
+            <!-- Driver's license (optional) -->
+            <div class="form-group">
+              <label for="registerLicense" data-i18n="form_license">Driver's License Number (G1/G2)</label>
+              <input type="text" id="registerLicense" data-i18n-placeholder="form_license_placeholder" placeholder="e.g., D1234-56789-01234 (Optional)">
+            </div>
+
+            <!-- Course package selection -->
+            <div class="form-group">
+              <label for="registerPackage" data-i18n="form_package">Select Driving Package</label>
+              <select id="registerPackage" required>
+                <option value="" disabled selected data-i18n="form_package_placeholder">-- Choose a Course --</option>
+                <option value="bde">MTO Approved BDE Package ($649)</option>
+                <option value="g2">G2 Test Complete Package ($399)</option>
+                <option value="g">G Road Test Complete Package ($449)</option>
+                <option value="hourly">Hourly Individual Lessons ($60/h)</option>
+              </select>
+            </div>
+
+            <!-- Language select -->
+            <div class="form-group">
+              <label for="registerLang" data-i18n="form_lang">Preferred Instruction Language</label>
+              <select id="registerLang" required>
+                <option value="en" data-i18n="form_lang_en">English</option>
+                <option value="zh-mandarin" data-i18n="form_lang_zh_mandarin">Mandarin (普通话)</option>
+                <option value="zh-cantonese" data-i18n="form_lang_zh_cantonese">Cantonese (粤语)</option>
+              </select>
+            </div>
+
+            <!-- Notes -->
+            <div class="form-group full-width">
+              <label for="registerNotes" data-i18n="form_notes">Additional Notes / Availability</label>
+              <textarea id="registerNotes" data-i18n-placeholder="form_notes_placeholder" placeholder="Share any schedule preferences or special requests with us..."></textarea>
+            </div>
+          </div>
+
+          <!-- Alert boxes -->
+          <div id="formSuccess" class="form-message success" data-i18n="form_success_msg">Thank you! Your registration has been received successfully. We will call or text you shortly.</div>
+          <div id="formError" class="form-message error" data-i18n="form_error_msg">Please fill in all required fields accurately.</div>
+
+          <button type="submit" class="btn btn-primary" data-i18n="form_submit">Submit Registration</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FAQ Accordion Section
+       ========================================================================== -->
+  <section class="faq-section" id="faq">
+    <div class="faq-wrapper">
+      <div class="section-header">
+        <h2 class="section-title" data-i18n="faq_title">Frequently Asked Questions</h2>
+        <p class="section-subtitle" data-i18n="faq_subtitle">Clear, direct answers regarding Ontario licensing requirements, course structure, and tests.</p>
+      </div>
+
+      <div class="faq-list">
+        <!-- FAQ 1 -->
+        <div class="faq-item">
+          <button class="faq-trigger">
+            <h4 data-i18n="faq_q1">How long does it take to complete the BDE Course?</h4>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-content">
+            <div class="faq-answer" data-i18n="faq_a1">
+              The classroom (online theory) takes 20 hours, plus 10 hours of homework. The practical training takes 10 hours in the car. You can complete all portions in a few weeks depending on your availability. However, MTO regulations mandate that the entire course must be fully completed within one year of your registration date.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-item">
+          <button class="faq-trigger">
+            <h4 data-i18n="faq_q2">What are the benefits of completing an MTO-Approved BDE course?</h4>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-content">
+            <div class="faq-answer" data-i18n="faq_a2">
+              There are two major benefits: 1. You qualify to take your G2 road test early, in just 8 months instead of the standard 12 months. 2. You receive an official certificate recorded in the MTO database, which insurance companies recognize for premium discounts (often up to 10-25% off depending on your insurance provider).
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-item">
+          <button class="faq-trigger">
+            <h4 data-i18n="faq_q3">Can I use the driving instructor's vehicle for my official road test?</h4>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-content">
+            <div class="faq-answer" data-i18n="faq_a3">
+              Yes! Our G2 and G packages explicitly include using our dual-brake, fully-insured instructor vehicle for your road exam. Driving the same car you practiced in greatly boosts your confidence and control during the test. We also offer this as an add-on for our standard BDE package.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-item">
+          <button class="faq-trigger">
+            <h4 data-i18n="faq_q4">How do I claim my BDE Course Certificate after graduating?</h4>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-content">
+            <div class="faq-answer" data-i18n="faq_a4">
+              Once you successfully complete all 40 hours of BDE training (20h theory, 10h home-link, 10h in-car), we will register your completion directly on the Ministry of Transportation database. You can pick up a hard copy of your Driver's Licence History (DLH) at any ServiceOntario location for a minor MTO fee, which serves as your official proof of BDE course completion for insurance purposes.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Contact Us & Map Integration
+       ========================================================================== -->
+  <section class="contact-section" id="contact">
+    <div class="contact-grid">
+      <!-- Contact Cards -->
+      <div class="contact-card">
+        <div style="margin-bottom: 1rem;">
+          <h2 class="section-title" data-i18n="contact_title" style="text-align: left; margin-bottom: 0.5rem;">Get In Touch</h2>
+          <p data-i18n="contact_subtitle" style="color: var(--text-secondary); font-size: 0.95rem;">Have questions? Reach out to our helpful admin team. We are here to support your success.</p>
+        </div>
+
+        <!-- Phone -->
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <div class="contact-text">
+            <h4 data-i18n="contact_info_phone">Main Office Phone</h4>
+            <p>416-291-8833</p>
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <div class="contact-text">
+            <h4 data-i18n="contact_info_email">Official Email</h4>
+            <p>info@populardrive.com</p>
+          </div>
+        </div>
+
+        <!-- Address -->
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div class="contact-text">
+            <h4 data-i18n="contact_info_address">Main Office Address</h4>
+            <p>4438 Sheppard Ave E, Unit 382, Scarborough, ON M1S 5H9</p>
+          </div>
+        </div>
+
+        <!-- Hours -->
+        <div class="contact-item">
+          <div class="contact-icon">⏰</div>
+          <div class="contact-text">
+            <h4 data-i18n="contact_info_hours">Business Hours</h4>
+            <p data-i18n="contact_hours_value">Monday - Sunday: 9:00 AM - 8:00 PM</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Google Maps Embed Container -->
+      <div class="contact-map-card">
+        <div class="map-header">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+          </svg>
+          <span data-i18n="contact_info_address">Main Office Address</span>
+        </div>
+        <div class="map-iframe-container">
+          <!-- Real maps iframe of the Scarborough location for realism -->
+          <iframe 
+            src="https://maps.google.com/maps?q=4438%20Sheppard%20Ave%20E,%20Scarborough,%20ON%20M1S%205H9&t=&z=14&ie=UTF8&iwloc=&output=embed" 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Footer Section
+       ========================================================================== -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="logo-main" style="margin-bottom: 0.5rem;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 4C15.93 4 19.21 6.83 19.89 10.5H16C15.55 9.07 14.18 8 12 8C9.82 8 8.45 9.07 8 10.5H4.11C4.79 6.83 8.07 4 12 4ZM12 20C8.07 20 4.79 17.17 4.11 13.5H8C8.45 14.93 9.82 16 12 16C14.18 16 15.55 14.93 16 13.5H19.89C19.21 17.17 15.93 20 12 20Z" fill="currentColor"/>
+          </svg>
+          <span data-i18n="nav_brand">POPULAR DRIVING SCHOOL</span>
+        </div>
+        <p data-i18n="footer_description">Ministry-Approved Beginner Driver Education (BDE) Course Provider. Helping drivers build safe, defensive driving techniques for Ontario's roads.</p>
+      </div>
+
+      <!-- Link block 1 -->
+      <div class="footer-links-col">
+        <h4 data-i18n="footer_links_title">Quick Links</h4>
+        <ul>
+          <li><a href="#" data-i18n="nav_home">Home</a></li>
+          <li><a href="#courses" data-i18n="nav_courses">Courses & Packages</a></li>
+          <li><a href="#about" data-i18n="nav_about">About Us</a></li>
+          <li><a href="#faq" data-i18n="nav_faq">FAQ</a></li>
+        </ul>
+      </div>
+
+      <!-- Link block 2 -->
+      <div class="footer-links-col">
+        <h4 data-i18n="nav_contact">Contact Us</h4>
+        <ul>
+          <li><a href="#contact">Scarborough, ON</a></li>
+          <li><a href="tel:4162918833">416-291-8833</a></li>
+          <li><a href="mailto:info@populardrive.com">info@populardrive.com</a></li>
+          <li><a href="#register" data-i18n="nav_registration">Online Registration</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="compliance-text" data-i18n="footer_compliance">This driving school is fully registered and approved as a BDE course provider by the Ministry of Transportation (MTO) of Ontario.</p>
+      <div class="footer-rights-block">
+        &copy; <span id="currentYear">2026</span> <span data-i18n="footer_rights">Popular Driving School. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script initialization -->
+  <script src="app.js"></script>
+  <script>
+    // Set dynamic current year in footer
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
