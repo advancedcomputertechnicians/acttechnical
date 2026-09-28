@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#1e3a5f" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>WFG Financial Needs Analysis (FNA)</title>
+    <meta name="description" content="Interactive digital Financial Needs Analysis (FNA) form with auto-calculations for cash flow, net worth, income protection, and printable 1:1 paper replica." />
+    <meta property="og:title" content="WFG Financial Needs Analysis (FNA)" />
+    <meta property="og:description" content="Interactive digital Financial Needs Analysis (FNA) form with auto-calculations for cash flow, net worth, income protection, and printable 1:1 paper replica." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      // Safely unregister any stale service workers and clear cache storage
+      if (typeof window !== 'undefined') {
+        try {
+          if ('serviceWorker' in navigator && navigator.serviceWorker.getRegistrations) {
+            navigator.serviceWorker.getRegistrations().then(function(regs) {
+              for (var i = 0; i < regs.length; i++) {
+                regs[i].unregister();
+              }
+            }).catch(function() {});
+          }
+        } catch (e) {}
+        try {
+          if ('caches' in window && window.caches && window.caches.keys) {
+            window.caches.keys().then(function(keys) {
+              for (var j = 0; j < keys.length; j++) {
+                window.caches.delete(keys[j]);
+              }
+            }).catch(function() {});
+          }
+        } catch (e) {}
+      }
+    </script>
+    <script type="module" crossorigin src="./assets/index-DvfUFVsm.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-D322q2Bn.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
+
