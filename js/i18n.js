@@ -25,7 +25,7 @@ const translations = {
         label_email: "Email Address",
         label_phone: "Phone Number",
         label_brief: "Project Brief",
-        btn_transmit: "Transmit Inquiry",
+        btn_transmit: "Send Message",
         footer_text: "pioneering technical excellence",
         // Home Page Portal
         audit_title: "website & IT diagnostic audit",
