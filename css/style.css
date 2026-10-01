@@ -101,18 +101,15 @@ body.light-mode .acc-btn {
     color: var(--text-light);
 }
 
-/* Hero Section */
 #hero {
     position: relative;
     min-height: 100vh;
-    height: auto;
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
     overflow: hidden;
-    padding-top: 5rem;
-    padding-bottom: 3rem;
+    padding-top: 120px; /* Ensure content starts below the fixed navbar */
+    padding-bottom: 60px;
 }
 
 #particles-js {
@@ -126,6 +123,7 @@ body.light-mode .acc-btn {
     position: relative;
     z-index: 2;
     text-align: center;
+    margin: auto 0;
 }
 
 /* Typography Enhancements */
