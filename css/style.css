@@ -104,12 +104,15 @@ body.light-mode .acc-btn {
 /* Hero Section */
 #hero {
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
 }
 
 #particles-js {
