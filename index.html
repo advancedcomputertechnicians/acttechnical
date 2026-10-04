@@ -1,250 +1,46 @@
-<!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>act | advanced computer technicians</title>
-    <meta name="description" content="Professional technical consulting, custom web application development, and dependable IT & cloud server support for growing businesses.">
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./css/style.css?v=1.061">
-</head>
-<body class="bg-[#0a0a0c] text-white">
-
-    <!-- Navigation -->
-    <nav class="fixed top-0 w-full z-50 glass-nav">
-        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="./index.html" class="flex items-center space-x-2 sm:space-x-3 shrink min-w-0">
-                <img src="./images/logo.png" alt="ACT Logo" class="h-6 sm:h-8 md:h-10 w-auto object-contain logo-aware shrink min-w-0">
-                <span class="bg-cyan-950/90 text-cyan-400 border border-cyan-500/50 text-[10px] sm:text-xs font-mono font-bold px-2 py-0.5 rounded-full shrink-0 shadow-xs">v1.078</span>
-            </a>
-            
-            <div class="flex items-center space-x-4 sm:space-x-8">
-                <div class="hidden lg:flex space-x-8 font-medium text-sm">
-                    <a href="#services" data-i18n="nav_services" class="hover:text-cyan-400 transition-colors uppercase tracking-widest text-[10px]">Services</a>
-                    <a href="#philosophy" data-i18n="nav_philosophy" class="hover:text-cyan-400 transition-colors uppercase tracking-widest text-[10px]">Philosophy</a>
-                    <a href="#contact" data-i18n="nav_contact" class="hover:text-cyan-400 transition-colors uppercase tracking-widest text-[10px]">Contact</a>
-                </div>
-                
-                <!-- Accessibility Controls -->
-                <div class="flex items-center space-x-1.5 sm:space-x-2 border-l border-white/10 pl-3 sm:pl-6">
-                    <!-- Language Dropdown -->
-                    <div class="relative">
-                        <button onclick="window.i18n.toggleMenu()" class="acc-btn" title="Select Language">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/></svg>
-                        </button>
-                        <div id="lang-menu" class="hidden absolute top-full right-0 mt-2 w-40 glass rounded-lg overflow-hidden py-1 z-[100] border-white/10">
-                            <button onclick="window.i18n.setLanguage('en')" class="w-full px-4 py-2 text-left text-xs hover:bg-white/10 transition-colors">English</button>
-                            <button onclick="window.i18n.setLanguage('es')" class="w-full px-4 py-2 text-left text-xs hover:bg-white/10 transition-colors">Español</button>
-                            <button onclick="window.i18n.setLanguage('zh')" class="w-full px-4 py-2 text-left text-xs hover:bg-white/10 transition-colors">中文 (简体)</button>
-                            <button onclick="window.i18n.setLanguage('fr')" class="w-full px-4 py-2 text-left text-xs hover:bg-white/10 transition-colors">Français</button>
-                        </div>
-                    </div>
-
-                    <!-- Weather Cycle Button -->
-                    <button onclick="window.weatherSystem.cycleState()" class="acc-btn" title="Cycle Atmosphere">
-                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/></svg>
-                    </button>
-
-                    <button onclick="changeFontSize(2)" class="acc-btn" title="Increase Font">A+</button>
-                    <button onclick="changeFontSize(-2)" class="acc-btn" title="Decrease Font">A-</button>
-                    <button onclick="toggleTheme()" class="acc-btn" id="theme-btn" title="Toggle Theme">
-                        <span id="theme-icon">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707M16.243 17.657l.707.707M6.343 6.343l.707-.707"/></svg>
-                        </span>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section id="hero">
-        <canvas id="particles-js"></canvas>
-        <div class="hero-content container mx-auto px-6">
-            <h1 data-i18n="hero_title" class="text-5xl md:text-8xl brand-lowercase mb-6 tracking-tight leading-none bg-gradient-tech overflow-visible py-4">
-                pioneering <br>technical excellence
-            </h1>
-            <p data-i18n="hero_subtitle" class="text-xl md:text-2xl text-slate-400 max-w-2xl mx-auto mb-10 font-light">
-                Delivering custom web applications, dependable IT systems, and reliable technical solutions for growing businesses.
-            </p>
-            <div class="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-4">
-                <a href="#services" data-i18n="hero_cta" class="inline-block px-10 py-4 bg-cyan-500 hover:bg-cyan-400 text-black font-black uppercase tracking-widest rounded-full transition-all hover:shadow-[0_0_50px_rgba(6,182,212,0.4)] text-xs">
-                    Explore Our Services
-                </a>
-                <a href="./fna/index.html" class="inline-flex items-center space-x-2 px-8 py-4 bg-cyan-500/10 hover:bg-cyan-500/20 text-cyan-400 border border-cyan-500/40 font-bold uppercase tracking-widest rounded-full transition-all text-xs shadow-[0_0_20px_rgba(6,182,212,0.25)]">
-                    <span>📊</span>
-                    <span>Launch FNA Analysis Tool</span>
-                </a>
-                <a href="./color/index.html" class="inline-flex items-center space-x-2 px-8 py-4 bg-purple-500/10 hover:bg-purple-500/20 text-purple-400 border border-purple-500/40 font-bold uppercase tracking-widest rounded-full transition-all text-xs shadow-[0_0_20px_rgba(168,85,247,0.25)]">
-                    <span>🎨</span>
-                    <span>Sample 2: Color &amp; Find</span>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="py-24 relative z-10">
-        <div class="max-w-7xl mx-auto px-6">
-            <h2 data-i18n="section_services" class="text-3xl font-black mb-16 lowercase tracking-widest text-center">core technical services</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                
-                <!-- Card 1: Web & App -->
-                <div class="glass p-8 hover-scale group">
-                    <div class="bg-cyan-500/10 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 border border-cyan-500/20 group-hover:border-cyan-500/50 transition-colors">
-                        <svg class="w-8 h-8 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-                    </div>
-                    <h3 data-i18n="service_1_title" class="text-2xl font-bold mb-4">Web & App Development</h3>
-                    <p data-i18n="service_1_desc" class="text-slate-400 font-light leading-relaxed mb-4">
-                        Custom web and mobile solutions designed for your business needs. We handle the tech so you can focus on growth.
-                    </p>
-                    <a href="./fna/index.html" class="inline-flex items-center space-x-2 text-cyan-400 font-bold text-xs uppercase tracking-wider hover:underline">
-                        <span>Open Interactive FNA Tool</span>
-                        <span>→</span>
-                    </a>
-                </div>
-
-                <!-- Card 2: Custom Systems & Cloud Setup -->
-                <div class="glass p-8 hover-scale group">
-                    <div class="bg-blue-500/10 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 border border-blue-500/20 group-hover:border-blue-500/50 transition-colors">
-                        <svg class="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
-                    </div>
-                    <h3 data-i18n="service_2_title" class="text-2xl font-bold mb-4">IT & Cloud Solutions</h3>
-                    <p data-i18n="service_2_desc" class="text-slate-400 font-light leading-relaxed">
-                        We build, manage, and secure reliable cloud servers and business IT systems for smooth everyday operations.
-                    </p>
-                </div>
-
-                <!-- Card 3: Forensic Investigation -->
-                <div class="glass p-8 hover-scale group">
-                    <div class="bg-purple-500/10 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 border border-purple-500/20 group-hover:border-purple-500/50 transition-colors">
-                        <svg class="w-8 h-8 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
-                    </div>
-                    <h3 data-i18n="service_3_title" class="text-2xl font-bold mb-4">Data Recovery & Support</h3>
-                    <p data-i18n="service_3_desc" class="text-slate-400 font-light leading-relaxed">
-                        Digital forensics, system recovery, and data protection. Safeguarding your valuable business records.
-                    </p>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Systems Diagnostics & Website Audit Section -->
-    <section id="audit" class="py-16 relative z-10">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="glass p-10 hover-scale max-w-4xl mx-auto w-full text-center relative z-10 border border-white/10 glow-cyan">
-                <div class="bg-cyan-500/10 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 mx-auto border border-cyan-500/20">
-                    <svg class="w-8 h-8 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
-                </div>
-                <h2 data-i18n="audit_title" class="text-3xl font-black mb-4 lowercase tracking-widest text-center">website & IT diagnostic audit</h2>
-                <p data-i18n="audit_desc" class="text-slate-400 font-light leading-relaxed max-w-2xl mx-auto mb-8">
-                    Perform a high-fidelity diagnostic scan of your digital infrastructure and discover critical optimization vectors.
-                </p>
-                <form id="audit-form" class="max-w-xl mx-auto">
-                    <div class="flex flex-col sm:flex-row gap-4">
-                        <input type="text" id="audit-url" required data-i18n="audit_placeholder" placeholder="enter website url for audit (e.g. customer.com)" class="flex-grow bg-white/5 border border-white/10 rounded-full px-6 py-4 focus:outline-none text-white glow-cyan-input tracking-wide text-sm font-light text-center placeholder-slate-500 sm:text-left">
-                        <button type="submit" data-i18n="audit_btn" class="px-8 py-4 bg-white text-black font-black uppercase tracking-widest hover:bg-cyan-500 hover:text-black transition-all rounded-full text-xs shrink-0 shadow-[0_0_20px_rgba(255,255,255,0.05)] hover:shadow-[0_0_30px_rgba(6,182,212,0.3)]">
-                            run diagnostic scan
-                        </button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <!-- Philosophy Section -->
-    <section id="philosophy" class="py-24 bg-[#0d0d10] border-y border-white/5">
-        <div class="max-w-4xl mx-auto px-6 text-center">
-            <h2 data-i18n="section_philosophy" class="text-3xl font-black mb-8 lowercase tracking-widest text-center">our strategic goal</h2>
-            <p data-i18n="philosophy_text" class="text-2xl font-light text-slate-300 italic mb-12 border-l-4 border-cyan-500 pl-8 text-left">
-                "We strive to be your trusted all-in-one technical partner. From custom web applications to system support, we provide dependable technology solutions so your business can thrive."
-            </p>
-            <div class="grid grid-cols-2 md:grid-cols-2 gap-8 text-left max-w-2xl mx-auto">
-                <div>
-                    <h4 data-i18n="sub_workstations" class="font-bold text-cyan-400 mb-2 uppercase tracking-widest text-xs">Custom Workstations</h4>
-                    <p data-i18n="sub_workstations_desc" class="text-slate-500 text-sm">Custom computer builds tailored for professional work performance.</p>
-                </div>
-                <div>
-                    <h4 data-i18n="sub_consulting" class="font-bold text-cyan-400 mb-2 uppercase tracking-widest text-xs">IT Consulting</h4>
-                    <p data-i18n="sub_consulting_desc" class="text-slate-500 text-sm">Reliable technical guidance, project planning, and system audits.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact & Footer -->
-    <section id="contact" class="py-24">
-        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16">
-            <div>
-                <h2 data-i18n="section_contact" class="text-4xl font-black mb-6 lowercase tracking-widest leading-none">get in <br>touch</h2>
-                <p data-i18n="contact_prompt" class="text-slate-400 mb-10 font-light">Ready to escalate your technical infrastructure? Contact our specialists for a deep-dive consultation.</p>
-                <div class="space-y-4">
-                    <p class="flex items-center space-x-4">
-                        <span class="text-cyan-400 font-bold uppercase tracking-widest text-xs">Email:</span>
-                        <a href="mailto:info@acttechnical.com" title="Click to send email to info@acttechnical.com" class="inline-flex items-center hover:opacity-80 transition-opacity">
-                            <img src="./images/email_addr.png" alt="info at acttechnical dot com" class="h-5 select-none pointer-events-none">
-                        </a>
-                    </p>
-                    <p class="flex items-center space-x-4">
-                        <span class="text-cyan-400 font-bold uppercase tracking-widest text-xs">Phone:</span>
-                        <a href="tel:6478830905" title="Click to call 647-883-0905" class="inline-flex items-center hover:opacity-80 transition-opacity">
-                            <img src="./images/phone_num.png" alt="Phone Number" class="h-5 select-none pointer-events-none">
-                        </a>
-                    </p>
-                </div>
-            </div>
-            <div class="glass p-10 shadow-2xl">
-                <form id="contact-form" class="space-y-6">
-                    <div>
-                        <label data-i18n="label_name" class="block text-xs uppercase tracking-widest text-slate-500 mb-2 label-text">Full Name</label>
-                        <input type="text" id="form-name" required class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 focus:border-cyan-500 outline-none transition-all text-white">
-                    </div>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <div>
-                            <label data-i18n="label_email" class="block text-xs uppercase tracking-widest text-slate-500 mb-2 label-text">Email Address</label>
-                            <input type="email" id="form-email" required class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 focus:border-cyan-500 outline-none transition-all text-white">
-                        </div>
-                        <!-- Honeypot Security Field -->
-                        <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off">
-                        <div>
-                            <label data-i18n="label_phone" class="block text-xs uppercase tracking-widest text-slate-500 mb-2 label-text">Phone Number</label>
-                            <input type="tel" id="form-phone" required class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 focus:border-cyan-500 outline-none transition-all text-white">
-                        </div>
-                    </div>
-                    <div>
-                        <label data-i18n="label_brief" class="block text-xs uppercase tracking-widest text-slate-500 mb-2 label-text">Project Brief</label>
-                        <textarea id="form-brief" required rows="4" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 focus:border-cyan-500 outline-none transition-all text-white"></textarea>
-                    </div>
-                    <button data-i18n="btn_transmit" type="submit" class="w-full py-4 bg-white text-black font-black uppercase tracking-widest hover:bg-cyan-500 transition-all rounded-lg text-xs">Send Message</button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <footer class="py-12 border-t border-white/5 text-center text-slate-600 text-[10px] uppercase tracking-[0.4em]">
-        <div class="flex flex-col items-center space-y-4">
-            <a href="./index.html">
-                <img src="./images/logo.png" alt="ACT Logo small" class="h-8 logo-aware opacity-80 hover:opacity-100 transition-all duration-500">
-            </a>
-            <p>&copy; 2026 advanced computer technicians [v1.025] - pioneering technical excellence</p>
-            <a href="./fna/index.html" class="text-cyan-400 hover:text-cyan-300 transition-colors border border-cyan-500/30 px-5 py-2 rounded-full mt-2 inline-flex items-center space-x-2 bg-cyan-500/10 text-xs font-bold uppercase tracking-wider shadow-[0_0_15px_rgba(6,182,212,0.2)]">
-                <span>📊</span>
-                <span>Launch Interactive FNA Tool</span>
-            </a>
-        </div>
-    </footer>
-
-    <!-- I18n Engine -->
-    <script src="./js/i18n.js"></script>
-    <!-- Weather Hero Script -->
-    <script src="./js/weather_hero.js"></script>
-    <!-- Main Script -->
-    <script src="./js/main.js"></script>
-    <!-- Contact Logic -->
-    <script src="./js/contact.js"></script>
-
-
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#1e3a5f" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>WFG Financial Needs Analysis (FNA)</title>
+    <meta name="description" content="Interactive digital Financial Needs Analysis (FNA) form with auto-calculations for cash flow, net worth, income protection, and printable 1:1 paper replica." />
+    <meta property="og:title" content="WFG Financial Needs Analysis (FNA)" />
+    <meta property="og:description" content="Interactive digital Financial Needs Analysis (FNA) form with auto-calculations for cash flow, net worth, income protection, and printable 1:1 paper replica." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      // Safely unregister any stale service workers and clear cache storage
+      if (typeof window !== 'undefined') {
+        try {
+          if ('serviceWorker' in navigator && navigator.serviceWorker.getRegistrations) {
+            navigator.serviceWorker.getRegistrations().then(function(regs) {
+              for (var i = 0; i < regs.length; i++) {
+                regs[i].unregister();
+              }
+            }).catch(function() {});
+          }
+        } catch (e) {}
+        try {
+          if ('caches' in window && window.caches && window.caches.keys) {
+            window.caches.keys().then(function(keys) {
+              for (var j = 0; j < keys.length; j++) {
+                window.caches.delete(keys[j]);
+              }
+            }).catch(function() {});
+          }
+        } catch (e) {}
+      }
+    </script>
+    <script type="module" crossorigin src="./assets/index-BfTDxWXV.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CoQXuTkB.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
+
