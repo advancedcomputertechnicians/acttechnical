@@ -1,0 +1,696 @@
+======================================================================= 
+ BACKTOG v013 AUDIT LOG 
+ Started : 2026-10-03 23:37:31 
+ Project : acttechnical 
+ Host    : DESKTOP-QQLJFST / DannyGeminiAnti 
+ Source  : C:\Users\DannyGeminiAnti\Documents\acttechnical Work\. 
+ Dest    : G:\My Drive\apps\acttechnical 
+ Anti Src: C:\Users\DannyGeminiAnti\.gemini\antigravity 
+ Anti Dst: G:\My Drive\apps\cdrive_work_files\DESKTOP-QQLJFST_DannyGeminiAnti\AppData_Antigravity 
+ Log     : C:\Users\DannyGeminiAnti\Documents\acttechnical Work\Staging_Sync_Back_2026-10-03_233731.log 
+======================================================================= 
+ 
+[2026-10-03 23:37:31] STEP 1/3: Syncing project acttechnical 
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : October 3, 2026 11:37:35 PM
+   Source : C:\Users\DannyGeminiAnti\Documents\acttechnical Work\
+     Dest = G:\My Drive\apps\acttechnical\
+
+    Files : *.*
+	    
+ Exc Dirs : node_modules
+	    scratch
+	    .git
+	    build
+	    dist
+	    
+  Options : *.* /TEE /S /E /DCOPY:DA /COPY:DAT /NP /R:3 /W:5 
+
+------------------------------------------------------------------------------
+
+	                   5	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\
+	  *EXTRA File 		   15956	brain.py
+	  *EXTRA File 		    8669	new_app_standards.md
+	  *EXTRA File 		   16384	project_brain.db
+	    New File  		  32.5 m	acttechnical_deploy.zip
+	    New File  		    2474	contact.php
+	    New File  		   19507	index.html
+	    New File  		     721	Staging_Sync_Back_2026-10-03_233731.log
+	    New File  		      27	version.json
+	                   2	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\.agent\
+	  New Dir          0	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\assets\
+	  New Dir          0	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\assets\bootstrap\
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\assets\bootstrap\css\
+	    New File  		    3836	bootstrap-reboot.min.css
+	  New Dir          0	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\assets\dropdown\
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\assets\dropdown\css\
+	    New File  		    7982	style.css
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\assets\dropdown\js\
+	    New File  		    9653	script.min.js
+	  New Dir         12	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\assets\images\
+	    New File  		    2894	2010-02-17-act-new-symbol-jpg-128x35.png
+	    New File  		    1094	act-favicon-128x45.png
+	    New File  		    1153	act-favicon-128x98.png
+	    New File  		    1647	act-logo-reverse-422x121-128x37.png
+	    New File  		    8113	act-logo-reverse-422x121.png
+	    New File  		    8354	act-logo-reverse-494x142.png
+	    New File  		    1868	hashes.json
+	    New File  		   46390	photo-1488590528505-98d2b5aba04b-750x500.jpg
+	    New File  		   35995	photo-1517694712202-14dd9538aa97-676x451.jpg
+	    New File  		   41663	photo-1526738549149-8e07eca6c147-625x500.jpg
+	    New File  		   23448	photo-1530435460869-d13625c69bbf-676x451.jpg
+	    New File  		  484822	photo-1531668383211-64743e924c66-652x501.jpg
+	  New Dir          0	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\assets\mobirise\
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\assets\mobirise\css\
+	    New File  		   45134	mbr-additional.css
+	  New Dir          0	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\assets\socicon\
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\assets\socicon\css\
+	    New File  		    9144	styles.css
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\assets\tether\
+	    New File  		     237	tether.min.css
+	  New Dir          0	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\assets\web\
+	  New Dir          0	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\assets\web\assets\
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\assets\web\assets\mobirise-icons\
+	    New File  		    7591	mobirise-icons.css
+	  New Dir          3	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\color\
+	    New File  		  144389	app_icon.png
+	    New File  		    4062	favicon.png
+	    New File  		    1513	index.html
+	  New Dir          8	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\color\assets\
+	    New File  		   1.0 m	cottage_coloring_page_1783549645799-rtlXb6d5.jpg
+	    New File  		   1.2 m	galaxy_coloring_page_1783549679056-CjsRw34e.jpg
+	    New File  		   52559	index-DDujj3AX.css
+	    New File  		   1.2 m	index-_QeZpljZ.js
+	    New File  		   1.1 m	magical_forest_coloring_1783546836516-BM5Jh7t4.jpg
+	    New File  		  994046	mountain_coloring_page_1783549635957-Cne1x6gX.jpg
+	    New File  		   1.1 m	ocean_coloring_page_1783549689288-CE_tgbx9.jpg
+	    New File  		  777207	sunset_coloring_page_1783549626502-DmKRaP-l.jpg
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\css\
+	    New File  		    4583	style.css
+	  New Dir          3	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\fna\
+	    New File  		    2160	index.html
+	    New File  		     240	manifest.json
+	    New File  		     641	sw.js
+	  New Dir          7	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\fna\assets\
+	    New File  		   28092	ehorses-logo-original.png
+	    New File  		   24691	ehorses-logo.png
+	    New File  		  820215	index-DIjfYs8E.js
+	    New File  		   90289	index-DlYRv1Kt.css
+	    New File  		    7507	wfg-logo-dark.png
+	    New File  		   22470	wfg-logo-light.png
+	    New File  		   25222	wfg-logo-original.png
+	  New Dir          3	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\images\
+	    New File  		     956	email_addr.png
+	    New File  		   11912	logo.png
+	    New File  		     710	phone_num.png
+	  New Dir          6	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\js\
+	    New File  		    3237	contact.js
+	    New File  		   14906	i18n.js
+	    New File  		    3621	main.js
+	    New File  		    2772	particles.js
+	    New File  		   12205	sample.js
+	    New File  		   12205	weather_hero.js
+	  New Dir          8	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\
+	    New File  		   15956	brain.py
+	    New File  		    2742	GODADDY_DEPLOYMENT_GUIDE.md
+	    New File  		    8872	new_app_standards.md
+	    New File  		   16384	project_brain.db
+	    New File  		    2485	publish-hashes.json
+	    New File  		   51599	Staging_Sync_Back.log
+	    New File  		      30	version.json
+	    New File  		     534	weather_audit.log
+	  New Dir          4	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\history\
+	    New File  		   57025	project-190425101305.mobirise_history
+	    New File  		   57213	project-190425104930.mobirise_history
+	    New File  		   57213	project.mobirise
+	    New File  		   11057	screenshot.png
+	  New Dir         24	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\
+	    New File  		  403806	2026 4 16 godaddy 1.pdf
+	    New File  		   31891	2026 4 16 progress 1 0 a.JPG
+	    New File  		   44295	2026 4 16 progress 1 0 b.JPG
+	    New File  		   26589	2026 4 16 progress 1 1.JPG
+	    New File  		   89736	2026 4 16 progress 1.JPG
+	    New File  		   54541	2026 4 16 progress 11 a.JPG
+	    New File  		   74498	2026 4 16 progress 11.JPG
+	    New File  		    9170	2026 4 16 progress 2.JPG
+	    New File  		   73629	2026 4 16 progress 3.JPG
+	    New File  		   64474	2026 4 16 progress 4.JPG
+	    New File  		   61688	2026 4 16 progress 5.JPG
+	    New File  		   64257	2026 4 16 progress 6.JPG
+	    New File  		   60676	2026 4 16 progress 7 b.JPG
+	    New File  		   51619	2026 4 16 progress 7 c.JPG
+	    New File  		   56073	2026 4 16 progress 7.JPG
+	    New File  		   46175	2026 4 16 progress 7a.JPG
+	    New File  		   46303	2026 4 16 progress 8 a.JPG
+	    New File  		   60156	2026 4 16 progress 8.JPG
+	    New File  		   52195	2026 4 17 progress 1 7.JPG
+	    New File  		   50304	2026 4 17 progress 1 8.JPG
+	    New File  		   57997	2026 4 17 progress 1 8a.JPG
+	    New File  		   49611	2026 4 17 progress 16.JPG
+	    New File  		   67999	2026 4 17 progress 2 0 a.JPG
+	    New File  		   74545	2026 4 17 progress 2 0 b.JPG
+	  New Dir          4	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\v1_021_AUDIT_READY\
+	    New File  		    2533	contact.php
+	    New File  		   14912	index.html
+	    New File  		      30	version.json
+	    New File  		     534	weather_audit.log
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\v1_021_AUDIT_READY\css\
+	    New File  		    4313	style.css
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\v1_021_AUDIT_READY\images\
+	    New File  		   11912	logo.png
+	  New Dir          5	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\v1_021_AUDIT_READY\js\
+	    New File  		    3322	contact.js
+	    New File  		    8775	i18n.js
+	    New File  		    3037	main.js
+	    New File  		    2859	particles.js
+	    New File  		   12601	weather_hero.js
+	  New Dir          0	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_003\
+	    New File  		   10698	index.html
+	  New Dir          3	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_004\
+	    New File  		   10605	index.html
+	    New File  		    3220	style.css
+	    New File  		    6395	weather_hero.js
+	  New Dir          3	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_006\
+	    New File  		   10616	index.html
+	    New File  		    3475	style.css
+	    New File  		    6892	weather_hero.js
+	  New Dir          2	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_007\
+	    New File  		   10864	index.html
+	    New File  		    6329	weather_hero.js?
+	  New Dir          2	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_016_DEPLOY\
+	    New File  		   16006	index.html
+	    New File  		      30	version.json
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_016_DEPLOY\css\
+	    New File  		    4313	style.css
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_016_DEPLOY\images\
+	    New File  		   11912	logo.png
+	  New Dir          3	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_016_DEPLOY\js\
+	    New File  		    8775	i18n.js
+	    New File  		    3037	main.js
+	    New File  		   12278	weather_hero.js
+	  New Dir          3	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_017_FINAL_SECURITY\
+	    New File  		    2680	contact.php
+	    New File  		   14912	index.html
+	    New File  		      30	version.json
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_017_FINAL_SECURITY\css\
+	    New File  		    4313	style.css
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_017_FINAL_SECURITY\images\
+	    New File  		   11912	logo.png
+	  New Dir          5	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_017_FINAL_SECURITY\js\
+	    New File  		    3322	contact.js
+	    New File  		    8775	i18n.js
+	    New File  		    3037	main.js
+	    New File  		    2859	particles.js
+	    New File  		   11424	weather_hero.js
+	  New Dir          3	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_018_LIVE_READY\
+	    New File  		    2673	contact.php
+	    New File  		   14912	index.html
+	    New File  		      30	version.json
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_018_LIVE_READY\css\
+	    New File  		    4313	style.css
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_018_LIVE_READY\images\
+	    New File  		   11912	logo.png
+	  New Dir          4	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_018_LIVE_READY\js\
+	    New File  		    3322	contact.js
+	    New File  		    8775	i18n.js
+	    New File  		    3037	main.js
+	    New File  		   12140	weather_hero.js
+	  New Dir          3	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_019_PIVOT_SKY\
+	    New File  		    2673	contact.php
+	    New File  		   14912	index.html
+	    New File  		      30	version.json
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_019_PIVOT_SKY\css\
+	    New File  		    4313	style.css
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_019_PIVOT_SKY\images\
+	    New File  		   11912	logo.png
+	  New Dir          4	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_019_PIVOT_SKY\js\
+	    New File  		    3322	contact.js
+	    New File  		    8775	i18n.js
+	    New File  		    3037	main.js
+	    New File  		   12525	weather_hero.js
+	  New Dir          3	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_020_ZENITH_FINAL\
+	    New File  		    2535	contact.php
+	    New File  		   14912	index.html
+	    New File  		      30	version.json
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_020_ZENITH_FINAL\css\
+	    New File  		    4313	style.css
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_020_ZENITH_FINAL\images\
+	    New File  		   11912	logo.png
+	  New Dir          5	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_020_ZENITH_FINAL\js\
+	    New File  		    3322	contact.js
+	    New File  		    8775	i18n.js
+	    New File  		    3037	main.js
+	    New File  		    2859	particles.js
+	    New File  		   12482	weather_hero.js
+	  New Dir          3	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_021_PRE_PORTAL\
+	    New File  		    2533	contact.php
+	    New File  		   15592	index.html
+	    New File  		      30	version.json
+	  New Dir          0	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_021_PRE_PORTAL\assets\
+	  New Dir          0	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_021_PRE_PORTAL\assets\bootstrap\
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_021_PRE_PORTAL\assets\bootstrap\css\
+	    New File  		    3843	bootstrap-reboot.min.css
+	  New Dir          0	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_021_PRE_PORTAL\assets\dropdown\
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_021_PRE_PORTAL\assets\dropdown\css\
+	    New File  		    8247	style.css
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_021_PRE_PORTAL\assets\dropdown\js\
+	    New File  		    9705	script.min.js
+	  New Dir         12	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_021_PRE_PORTAL\assets\images\
+	    New File  		    2894	2010-02-17-act-new-symbol-jpg-128x35.png
+	    New File  		    1094	act-favicon-128x45.png
+	    New File  		    1153	act-favicon-128x98.png
+	    New File  		    1647	act-logo-reverse-422x121-128x37.png
+	    New File  		    8113	act-logo-reverse-422x121.png
+	    New File  		    8354	act-logo-reverse-494x142.png
+	    New File  		    1868	hashes.json
+	    New File  		   46390	photo-1488590528505-98d2b5aba04b-750x500.jpg
+	    New File  		   35995	photo-1517694712202-14dd9538aa97-676x451.jpg
+	    New File  		   41663	photo-1526738549149-8e07eca6c147-625x500.jpg
+	    New File  		   23448	photo-1530435460869-d13625c69bbf-676x451.jpg
+	    New File  		  484822	photo-1531668383211-64743e924c66-652x501.jpg
+	  New Dir          0	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_021_PRE_PORTAL\assets\mobirise\
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_021_PRE_PORTAL\assets\mobirise\css\
+	    New File  		   47133	mbr-additional.css
+	  New Dir          0	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_021_PRE_PORTAL\assets\socicon\
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_021_PRE_PORTAL\assets\socicon\css\
+	    New File  		    9688	styles.css
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_021_PRE_PORTAL\assets\tether\
+	    New File  		     237	tether.min.css
+	  New Dir          0	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_021_PRE_PORTAL\assets\web\
+	  New Dir          0	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_021_PRE_PORTAL\assets\web\assets\
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_021_PRE_PORTAL\assets\web\assets\mobirise-icons\
+	    New File  		    8067	mobirise-icons.css
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_021_PRE_PORTAL\css\
+	    New File  		    4313	style.css
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_021_PRE_PORTAL\images\
+	    New File  		   11912	logo.png
+	  New Dir          5	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_021_PRE_PORTAL\js\
+	    New File  		    3322	contact.js
+	    New File  		    8775	i18n.js
+	    New File  		    3037	main.js
+	    New File  		    2859	particles.js
+	    New File  		   12601	weather_hero.js
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_022_PRE_BACK_LINK\
+	    New File  		   17887	index.html
+	  New Dir          4	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_022_PRE_BACK_LINK\sample\
+	    New File  		   36275	app.js
+	    New File  		   40772	index.html
+	    New File  		   28676	styles.css
+	    New File  		   21962	translations.json
+	  New Dir          1	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_022_PRE_FOOTER_FIX\
+	    New File  		   17887	index.html
+	  New Dir          4	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\results\versions\v1_022_PRE_FOOTER_FIX\sample\
+	    New File  		   36275	app.js
+	    New File  		   40772	index.html
+	    New File  		   28676	styles.css
+	    New File  		   21962	translations.json
+	  New Dir          2	C:\Users\DannyGeminiAnti\Documents\acttechnical Work\_archive\unused\
+	    New File  		   12507	2010_02_17_act_new_symbol.jpg
+	    New File  		    1220	clean_logo_fixed.py
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :        81        78         3         0         0         0
+   Files :       199       197         2         0         0         3
+   Bytes :   45.40 m   45.40 m     5.9 k         0         0    40.0 k
+   Times :   0:00:05   0:00:04                       0:00:00   0:00:00
+
+
+   Speed :            10871332 Bytes/sec.
+   Speed :             622.062 MegaBytes/min.
+   Ended : October 3, 2026 11:37:40 PM
+
+[2026-10-03 23:37:31] STEP 2/3: Syncing _App_System 
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : October 3, 2026 11:37:40 PM
+   Source : C:\Users\DannyGeminiAnti\Documents\_App_System\
+     Dest = G:\My Drive\apps\_App_System\
+
+    Files : *.*
+	    
+ Exc Dirs : node_modules
+	    scratch
+	    .git
+	    build
+	    dist
+	    
+  Options : *.* /TEE /S /E /DCOPY:DA /COPY:DAT /NP /R:3 /W:5 
+
+------------------------------------------------------------------------------
+
+	                  20	C:\Users\DannyGeminiAnti\Documents\_App_System\
+	*EXTRA Dir        -1	G:\My Drive\apps\_App_System\Antigravity_Brain_Backup\
+	  *EXTRA File 		  297932	Audit_2026-06-14_010538.log
+	  *EXTRA File 		     250	Build_Authorization_DESKTOP-31FKBOB_2026-04-08_14-25-34.txt
+	    Newer     		   44258	Staging_Sync_Back_2026-09-25_232725.log
+	                   1	C:\Users\DannyGeminiAnti\Documents\_App_System\MacMiniMonitor\
+	                  41	C:\Users\DannyGeminiAnti\Documents\_App_System\results\
+	*EXTRA Dir        -1	G:\My Drive\apps\_App_System\results\revisions\
+	  *EXTRA File 		   34260	Audit_2026-05-25_012057.log
+	  *EXTRA File 		    1770	BACKTOG.bat.bak
+	  *EXTRA File 		    7166	Sync_Back_2026-05-07_011346.log
+	  *EXTRA File 		  225238	Sync_Back_2026-06-12_235002.log
+	  *EXTRA File 		  877415	Sync_Back_2026-06-12_235406.log
+	  *EXTRA File 		    1469	TOLOCAL.bat.bak
+	                  22	C:\Users\DannyGeminiAnti\Documents\_App_System\results\versions\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         4         0         4         0         0         2
+   Files :        84         1        83         0         0         8
+   Bytes :   21.15 m    43.2 k   21.10 m         0         0    1.37 m
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :             1924260 Bytes/sec.
+   Speed :             110.107 MegaBytes/min.
+   Ended : October 3, 2026 11:37:40 PM
+
+[2026-10-03 23:37:31] STEP 3/3: Syncing Antigravity AppData 
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : October 3, 2026 11:37:40 PM
+   Source : C:\Users\DannyGeminiAnti\.gemini\antigravity\
+     Dest = G:\My Drive\apps\cdrive_work_files\DESKTOP-QQLJFST_DannyGeminiAnti\AppData_Antigravity\
+
+    Files : *.*
+	    
+ Exc Dirs : tasks
+	    scratch
+	    node_modules
+	    
+  Options : *.* /TEE /S /E /DCOPY:DA /COPY:DAT /NP /R:3 /W:5 
+
+------------------------------------------------------------------------------
+
+	                   4	C:\Users\DannyGeminiAnti\.gemini\antigravity\
+	  *EXTRA File 		   32768	conversation_summaries.db-shm
+	  *EXTRA File 		  173072	conversation_summaries.db-wal
+	    Newer     		    3733	agyhub_summaries_proto.pb
+	    Newer     		    1046	antigravity_state.pbtxt
+	    Newer     		   32768	conversation_summaries.db
+	                  14	C:\Users\DannyGeminiAnti\.gemini\antigravity\annotations\
+	    Newer     		      92	13d289c7-8aca-4523-9e85-52f4f3632356.pbtxt
+	    New File  		      98	753c20e3-1745-493c-bcd8-35aed02e031b.pbtxt
+	    Newer     		      91	9540f47a-f97c-4f56-9d0d-91213f6c365a.pbtxt
+	    Newer     		     105	a1430475-85df-48ef-9c24-56a26de27150.pbtxt
+	    Newer     		      90	c38a65d5-9892-49ca-a791-fa8c25332d53.pbtxt
+	    Newer     		     110	c9af90e6-7f3b-4d4e-ade4-61eb30ce6b26.pbtxt
+	    Newer     		      88	dbc863f5-3420-43f7-8599-9356b258e609.pbtxt
+	                   2	C:\Users\DannyGeminiAnti\.gemini\antigravity\bin\
+	    Newer     		     118	agentapi.bat
+	    Newer     		  12.9 m	webm_encoder.exe
+	                   0	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\
+	*EXTRA Dir        -1	G:\My Drive\apps\cdrive_work_files\DESKTOP-QQLJFST_DannyGeminiAnti\AppData_Antigravity\brain\a9ebbaf3-ec6c-437d-bc68-2ae83dcf88d2\
+	*EXTRA Dir        -1	G:\My Drive\apps\cdrive_work_files\DESKTOP-QQLJFST_DannyGeminiAnti\AppData_Antigravity\brain\c207c3a9-5eaa-4479-ad9a-08348dc88089\
+	                   2	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\
+	    New File  		    2169	layout_changes_v1.071.md
+	    New File  		     182	layout_changes_v1.071.md.metadata.json
+	                   0	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\
+	                   2	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\logs\
+	    Newer     		   4.5 m	transcript.jsonl
+	    Newer     		   6.1 m	transcript_full.jsonl
+	                   0	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\logs\chunks\
+	                  47	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\logs\chunks\transcript\
+	    Newer     		  102400	00000000.jsonl
+	    New File  		  102400	00000001.jsonl
+	    New File  		  102400	00000002.jsonl
+	    New File  		  102400	00000003.jsonl
+	    New File  		  102400	00000004.jsonl
+	    New File  		  102400	00000005.jsonl
+	    New File  		  102400	00000006.jsonl
+	    New File  		  102400	00000007.jsonl
+	    New File  		  102400	00000008.jsonl
+	    New File  		  102400	00000009.jsonl
+	    New File  		  102400	00000010.jsonl
+	    New File  		  102400	00000011.jsonl
+	    New File  		  102400	00000012.jsonl
+	    New File  		  102400	00000013.jsonl
+	    New File  		  102400	00000014.jsonl
+	    New File  		  102400	00000015.jsonl
+	    New File  		  102400	00000016.jsonl
+	    New File  		  102400	00000017.jsonl
+	    New File  		  102400	00000018.jsonl
+	    New File  		  102400	00000019.jsonl
+	    New File  		  102400	00000020.jsonl
+	    New File  		  102400	00000021.jsonl
+	    New File  		  102400	00000022.jsonl
+	    New File  		  102400	00000023.jsonl
+	    New File  		  102400	00000024.jsonl
+	    New File  		  102400	00000025.jsonl
+	    New File  		  102400	00000026.jsonl
+	    New File  		  102400	00000027.jsonl
+	    New File  		  102400	00000028.jsonl
+	    New File  		  102400	00000029.jsonl
+	    New File  		  102400	00000030.jsonl
+	    New File  		  102400	00000031.jsonl
+	    New File  		  102400	00000032.jsonl
+	    New File  		  102400	00000033.jsonl
+	    New File  		  102400	00000034.jsonl
+	    New File  		  102400	00000035.jsonl
+	    New File  		  102400	00000036.jsonl
+	    New File  		  102400	00000037.jsonl
+	    New File  		  102400	00000038.jsonl
+	    New File  		  102400	00000039.jsonl
+	    New File  		  102400	00000040.jsonl
+	    New File  		  102400	00000041.jsonl
+	    New File  		  102400	00000042.jsonl
+	    New File  		  102400	00000043.jsonl
+	    New File  		  102400	00000044.jsonl
+	    New File  		  102400	00000045.jsonl
+	    New File  		   59898	00000046.jsonl
+	                  64	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\logs\chunks\transcript_full\
+	    Newer     		  102400	00000000.jsonl
+	    New File  		  102400	00000001.jsonl
+	    New File  		  102400	00000002.jsonl
+	    New File  		  102400	00000003.jsonl
+	    New File  		  102400	00000004.jsonl
+	    New File  		  102400	00000005.jsonl
+	    New File  		  102400	00000006.jsonl
+	    New File  		  102400	00000007.jsonl
+	    New File  		  102400	00000008.jsonl
+	    New File  		  102400	00000009.jsonl
+	    New File  		  102400	00000010.jsonl
+	    New File  		  102400	00000011.jsonl
+	    New File  		  102400	00000012.jsonl
+	    New File  		  102400	00000013.jsonl
+	    New File  		  102400	00000014.jsonl
+	    New File  		  102400	00000015.jsonl
+	    New File  		  102400	00000016.jsonl
+	    New File  		  102400	00000017.jsonl
+	    New File  		  102400	00000018.jsonl
+	    New File  		  102400	00000019.jsonl
+	    New File  		  102400	00000020.jsonl
+	    New File  		  102400	00000021.jsonl
+	    New File  		  102400	00000022.jsonl
+	    New File  		  102400	00000023.jsonl
+	    New File  		  102400	00000024.jsonl
+	    New File  		  102400	00000025.jsonl
+	    New File  		  102400	00000026.jsonl
+	    New File  		  102400	00000027.jsonl
+	    New File  		  102400	00000028.jsonl
+	    New File  		  102400	00000029.jsonl
+	    New File  		  102400	00000030.jsonl
+	    New File  		  102400	00000031.jsonl
+	    New File  		  102400	00000032.jsonl
+	    New File  		  102400	00000033.jsonl
+	    New File  		  102400	00000034.jsonl
+	    New File  		  102400	00000035.jsonl
+	    New File  		  102400	00000036.jsonl
+	    New File  		  102400	00000037.jsonl
+	    New File  		  102400	00000038.jsonl
+	    New File  		  102400	00000039.jsonl
+	    New File  		  102400	00000040.jsonl
+	    New File  		  102400	00000041.jsonl
+	    New File  		  102400	00000042.jsonl
+	    New File  		  102400	00000043.jsonl
+	    New File  		  102400	00000044.jsonl
+	    New File  		  102400	00000045.jsonl
+	    New File  		  102400	00000046.jsonl
+	    New File  		  102400	00000047.jsonl
+	    New File  		  102400	00000048.jsonl
+	    New File  		  102400	00000049.jsonl
+	    New File  		  102400	00000050.jsonl
+	    New File  		  102400	00000051.jsonl
+	    New File  		  102400	00000052.jsonl
+	    New File  		  102400	00000053.jsonl
+	    New File  		  102400	00000054.jsonl
+	    New File  		  102400	00000055.jsonl
+	    New File  		  102400	00000056.jsonl
+	    New File  		  102400	00000057.jsonl
+	    New File  		  102400	00000058.jsonl
+	    New File  		  102400	00000059.jsonl
+	    New File  		  102400	00000060.jsonl
+	    New File  		  102400	00000061.jsonl
+	    New File  		  102400	00000062.jsonl
+	    New File  		   10214	00000063.jsonl
+	  New Dir         73	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\messages\
+	    New File  		    3098	03c71c00-9ccf-4fd7-992c-3543dc13161a.json
+	    New File  		     481	091a8fc4-0e35-4e11-8bd6-4db89cb51fa6.json
+	    New File  		    2256	0f63fd21-17ee-4747-b0c9-dedca98427c3.json
+	    New File  		    1661	1127d8a2-428f-40fd-89e8-322bedd9d23b.json
+	    New File  		    1528	1727d633-6ec8-43b4-b9f3-f9966634fc14.json
+	    New File  		     478	19890986-7813-46c9-81eb-b4da93329626.json
+	    New File  		    2229	19ea32d8-116e-4059-a601-c1813835b015.json
+	    New File  		    1875	1c38e4ae-4e6f-4ed3-b91a-4ee839de4d8b.json
+	    New File  		    1566	1e55bcad-6208-4377-a756-486c21ca870a.json
+	    New File  		    1401	1e9f4b1c-3268-4815-b9bf-3a79a217d7eb.json
+	    New File  		     475	24fb722d-d7de-49d2-89e1-ed9a66865c0f.json
+	    New File  		    3758	252a099f-dc40-48f4-95a4-f30c7b1fab4d.json
+	    New File  		    2254	2652d9d0-2d98-4416-82cf-ce8bbac34ab1.json
+	    New File  		    3111	2a6f18cc-c739-43b2-80d5-2d2be39dca3f.json
+	    New File  		    1385	2ae47827-e241-4af4-b5a8-f8f2d00b27fe.json
+	    New File  		   17316	2c66ef93-c23c-473f-bc05-057e13a3f71b.json
+	    New File  		    3935	316435c4-71f6-4cd4-9675-ff3e3a3aaead.json
+	    New File  		    1334	3a0c8374-7dd8-4643-bf68-1d0fa832fc09.json
+	    New File  		     362	3a0ebf1d-2117-4248-aaa2-9fe45f07d0ba.json
+	    New File  		    2919	3a488ea3-38e3-453e-bf2b-2b99640609fe.json
+	    New File  		    1432	3e6add71-5b5d-4f8e-8fc7-1d82eaa4855c.json
+	    New File  		    1290	40d2e94b-4c58-4968-999e-7f80b91317eb.json
+	    New File  		     481	45715e55-958f-4267-9cde-e412b46c552d.json
+	    New File  		    2185	4f1d8c3d-9db9-4e96-abe4-b87bf557ab6d.json
+	    New File  		    1563	526b2f61-750d-4abd-a32a-310e035f9068.json
+	    New File  		    1462	53ff3cdb-0e03-457c-898f-d723758a167d.json
+	    New File  		    1415	57b73cd4-9689-423a-b798-944bef806643.json
+	    New File  		    9064	57dc72b7-7e98-40b4-8aee-adcf6a6ccd5a.json
+	    New File  		    1354	5e2f26fb-136a-4edd-8651-587c712fcae8.json
+	    New File  		    1464	60b98c88-1143-40de-baae-f3cef98d547b.json
+	    New File  		    3251	633918fb-cfbc-4546-8b94-158445eb1ca5.json
+	    New File  		    1460	68339bba-f669-4a0a-8ac8-4e9cdc5022cb.json
+	    New File  		    2752	69cb54d9-a059-4ed9-8b09-7180d9bac317.json
+	    New File  		    1688	6f851568-1d7f-4f83-89dc-2062b1ba34e5.json
+	    New File  		    1400	761d2cfa-012e-4b04-9a8f-5ee0060e7e22.json
+	    New File  		    2166	78bf7a3a-6c8c-4aa6-bde7-aebe357de97b.json
+	    New File  		    1401	78d37cfd-3d88-4ec5-92bb-bd4736b54f4d.json
+	    New File  		    9853	7b3deccb-f9ad-44fe-b19f-ff5821ecfe81.json
+	    New File  		     475	7d64cc1e-02bd-4bc4-ba44-06f73b17f00e.json
+	    New File  		    2214	82d6015b-13fe-4a57-bb26-e13970b0b816.json
+	    New File  		    9913	830bb2b8-e531-4790-b52e-4a95b7c540d9.json
+	    New File  		    9845	8532cb33-d6ca-495c-8fbc-c9ebeec86c2c.json
+	    New File  		    4525	8a60e57e-c1b4-4afe-9d52-10977131a3ca.json
+	    New File  		     481	8b8575b1-7b7e-4344-9d4e-bdc7d217beea.json
+	    New File  		    2200	9007466f-d776-4658-a1cc-2495aef76cc6.json
+	    New File  		    1624	90de99fd-d8ad-463b-adc8-29e5000bdec1.json
+	    New File  		    1400	919d54a4-cb1b-4b58-8198-09f4962a3ce7.json
+	    New File  		     357	93813eb9-5581-470c-af4b-267b71f4e564.json
+	    New File  		    2919	a51cabd2-3e27-4015-a76c-81a725b46555.json
+	    New File  		     481	a5fe6fa8-a962-45c4-9efe-81f005aabd2c.json
+	    New File  		    1438	ae367a1c-2f45-42c3-abef-8466c308c4c5.json
+	    New File  		    3828	afd72266-5636-44fa-bb99-4fe0083cf0af.json
+	    New File  		    1397	b03364f6-6937-4e55-b220-cdc1e6da140d.json
+	    New File  		   10170	b5945a6f-a576-448d-8184-27e37b3e61a8.json
+	    New File  		    3987	c00a8c8a-10df-43cc-b84a-763a4f8fc106.json
+	    New File  		     481	c45905fa-4623-4754-be57-3acaee94a116.json
+	    New File  		    1400	c945100c-752b-41d3-be2e-061e1a7556a1.json
+	    New File  		    1580	cb88d7af-c772-4eb0-b7af-06b6c1376693.json
+	    New File  		    2223	cf8efde5-e220-433e-b9cc-2f7f22dec3ba.json
+	    New File  		     475	d7677244-6703-4d7a-8f1c-956eb141f710.json
+	    New File  		    2225	db049f55-da84-4f83-a91e-3372c9ee2435.json
+	    New File  		    2381	e0a1a118-5a73-4f89-bef4-918ec0e2e510.json
+	    New File  		    1464	e10d2b23-e814-4791-971f-f4a12b561465.json
+	    New File  		    1837	e3d8525b-cad0-4feb-bbbe-ff46a9995a7f.json
+	    New File  		    1623	e3dabd09-bb2e-4bda-ad8a-2274c1a355c4.json
+	    New File  		    2089	e5941c48-0ea7-4dd8-8a2a-30ddf4f8a3c4.json
+	    New File  		    2243	e94dbc6f-de51-4191-bd6f-7c8ba1f3c853.json
+	    New File  		     481	eeaf9b90-d867-4b69-b9f7-eaa57d2a14a7.json
+	    New File  		    2457	efd89d54-c56c-4c2a-8048-5536176d48a5.json
+	    New File  		    1659	f283356f-384b-4504-aa2f-2183f30d97f6.json
+	    New File  		    1401	f3d10eec-093a-4e78-b275-579785694ace.json
+	    New File  		   17780	f89f3159-14d1-40cd-a4a0-845b02d066cd.json
+	    New File  		    3169	read.json
+	  New Dir          0	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\messages\undelivered\
+	                   0	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\100\
+	    New File  		    8245	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1001\
+	    New File  		    1023	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1003\
+	    New File  		     652	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1005\
+	    New File  		     783	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1007\
+	    New File  		    1320	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1009\
+	    New File  		    1059	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1011\
+	    New File  		      51	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1013\
+	    New File  		    1986	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1015\
+	    New File  		      51	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1017\
+	    New File  		     333	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1020\
+	    New File  		     950	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1026\
+	    New File  		     995	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1028\
+	    New File  		     794	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1030\
+	    New File  		     767	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1032\
+	    New File  		    1320	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1034\
+	    New File  		     783	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1038\
+	    New File  		    1059	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1040\
+	    New File  		      51	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1042\
+	    New File  		     715	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1044\
+	    New File  		     333	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1047\
+	    New File  		      51	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1050\
+	    New File  		     884	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1053\
+	    New File  		      76	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1071\
+	    New File  		      76	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1075\
+	    New File  		      76	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1079\
+	    New File  		      76	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1087\
+	    New File  		    1374	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1089\
+	    New File  		    1374	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1093\
+	    New File  		    1069	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1095\
+	    New File  		    1036	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1097\
+	    New File  		     783	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1099\
+	    New File  		    1768	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\110\
+	    New File  		      51	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1101\
+	    New File  		    1059	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1103\
+	    New File  		      51	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1105\
+	    New File  		      51	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1107\
+	    New File  		     384	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1110\
+	    New File  		     922	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1113\
+	    New File  		      76	output.txt
+	  New Dir          1	C:\Users\DannyGeminiAnti\.gemini\antigravity\brain\13d289c7-8aca-4523-9e85-52f4f3632356\.system_generated\steps\1118\
+	    New File  		      51	output.txt
