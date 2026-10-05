@@ -1,0 +1,10 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+  <h1>Testing Aqua</h1>
+  <iframe src="http://localhost:8080/aqua/index.html" width="800" height="600" id="frm"></iframe>
+  <script>
+    window.addEventListener('message', e => console.log('Message from iframe:', e.data));
+  </script>
+</body>
+</html>
