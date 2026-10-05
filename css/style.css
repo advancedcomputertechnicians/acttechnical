@@ -223,3 +223,58 @@ body.aria-mode .hover\:bg-cyan-400:hover { background-color: #c084fc; }
 body.aria-mode .text-cyan-400 { color: #c084fc; }
 body.aria-mode .border-cyan-500\/50 { border-color: rgba(168, 85, 247, 0.5); }
 body.aria-mode .bg-cyan-950\/90 { background-color: rgba(59, 7, 100, 0.9); }
+
+/* Better Light Mode Overrides */
+
+body.light-mode {
+    background: linear-gradient(135deg, #f0f4f8 0%, #e2e8f0 100%);
+    color: #0f172a;
+}
+
+body.light-mode .glass {
+    background: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 8px 32px rgba(15, 23, 42, 0.08);
+}
+
+body.light-mode .glass-nav {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+    color: #0f172a;
+}
+
+body.light-mode .text-slate-400, 
+body.light-mode .text-slate-500 {
+    color: #475569;
+}
+
+body.light-mode .text-white {
+    color: #0f172a;
+}
+
+/* Improve cyan readability in light mode */
+body.light-mode .text-cyan-400 {
+    color: #0284c7;
+}
+body.light-mode .border-cyan-500\/50 {
+    border-color: rgba(2, 132, 199, 0.3);
+}
+body.light-mode .bg-cyan-950\/90 {
+    background-color: rgba(240, 249, 255, 0.9);
+}
+body.light-mode .hover\:text-cyan-300:hover {
+    color: #0369a1;
+}
+body.light-mode .bg-cyan-500\/10 {
+    background-color: rgba(2, 132, 199, 0.05);
+}
+
+body.light-mode .acc-btn {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(203, 213, 225, 0.8);
+    color: #334155;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
