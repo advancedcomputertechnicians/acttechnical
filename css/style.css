@@ -207,3 +207,19 @@ body.light-mode .glow-cyan-input:focus {
     border-color: var(--accent-blue) !important;
 }
 
+
+/* Aria Theme (Purple) */
+body.aria-mode {
+    --accent-cyan: #a855f7;
+    --accent-blue: #d946ef;
+    background-color: #1a0b2e;
+    color: #f3e8ff;
+}
+body.aria-mode .text-slate-400, body.aria-mode .text-slate-500 {
+    color: #c084fc;
+}
+body.aria-mode .bg-cyan-500 { background-color: #a855f7; }
+body.aria-mode .hover\:bg-cyan-400:hover { background-color: #c084fc; }
+body.aria-mode .text-cyan-400 { color: #c084fc; }
+body.aria-mode .border-cyan-500\/50 { border-color: rgba(168, 85, 247, 0.5); }
+body.aria-mode .bg-cyan-950\/90 { background-color: rgba(59, 7, 100, 0.9); }

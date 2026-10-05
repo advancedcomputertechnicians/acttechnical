@@ -10,14 +10,34 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     // Theme Toggle
+        // Theme Toggle (cycles Dark -> Light -> Aria)
     window.toggleTheme = () => {
-        body.classList.toggle('light-mode');
         const isLight = body.classList.contains('light-mode');
+        const isAria = body.classList.contains('aria-mode');
+        
+        if (!isLight && !isAria) {
+            // Dark -> Light
+            body.classList.add('light-mode');
+        } else if (isLight) {
+            // Light -> Aria
+            body.classList.remove('light-mode');
+            body.classList.add('aria-mode');
+        } else {
+            // Aria -> Dark
+            body.classList.remove('aria-mode');
+        }
+        
+        const isLightNow = body.classList.contains('light-mode');
+        const isAriaNow = body.classList.contains('aria-mode');
         const icon = document.querySelector('#theme-icon');
         if (icon) {
-            icon.innerHTML = isLight ? 
-                '<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>' : 
-                '<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707M16.243 17.657l.707.707M6.343 6.343l.707-.707"/></svg>';
+            if (isLightNow) {
+                icon.innerHTML = '<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>'; // Sun
+            } else if (isAriaNow) {
+                icon.innerHTML = '<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.24 12.24a5 5 0 00-5-5H11a2 2 0 00-2 2v8a2 2 0 002 2h4.24a5 5 0 005-5z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12h.01"/></svg>'; // Star/Sparkle
+            } else {
+                icon.innerHTML = '<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707M16.243 17.657l.707.707M6.343 6.343l.707-.707"/></svg>'; // Moon
+            }
         }
     };
 
