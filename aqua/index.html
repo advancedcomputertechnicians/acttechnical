@@ -10,7 +10,7 @@
 <script>
   const originalFetch = window.fetch;
   window.fetch = async function() {
-    const url = arguments[0];
+    const url = typeof arguments[0] === "string" ? arguments[0] : (arguments[0] instanceof Request ? arguments[0].url : arguments[0].toString());
     
     // Techs
     if (url.includes('/api/techs')) {
@@ -128,7 +128,7 @@
     }
 
     // Pass-through for real assets
-    return originalFetch.apply(this, arguments);
+    return originalFetch(...arguments);
   };
 </script>
 </head>
