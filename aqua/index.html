@@ -16,95 +16,97 @@
       const url = typeof arg === "string" ? arg : (arg && arg.url ? arg.url : String(arg));
       
       if (url && typeof url.includes === 'function') {
-        // Techs
         if (url.includes('/api/techs')) {
           return new Response(JSON.stringify([
             {
               id: "reverse-osmosis",
               name: "Advanced Reverse Osmosis",
-              description: "A highly efficient modern process forcing seawater through semi-permeable membranes under extreme pressure, removing 99% of dissolved salts.",
-              category: "Modern Industrial",
+              category: "Membrane",
+              costRating: 85,
+              energyIntensity: 3.5,
+              carbonFootprint: 2.1,
+              brineImpact: 8,
+              recoveryRate: 50,
+              description: "A highly efficient modern process forcing seawater through semi-permeable membranes under extreme pressure.",
+              pros: ["High capacity", "Scalable", "Well-understood"],
+              cons: ["High energy use", "Brine disposal issues", "Membrane fouling"],
+              historyContext: "Pioneered in the 1950s, dominates 69% of global market.",
               sustainabilityScore: 78,
-              costPerCubicMeter: 0.55,
-              historyContext: "Pioneered in the 1950s, it now dominates 69% of the global desalination market.",
               dailyCapacityLiters: 15000000,
-              lat: 25.0,
-              lng: 55.0,
+              lat: 25.0, lng: 55.0,
               agentAnalysis: { multiplier: 1.15, feedback: "Agent Simulation suggests 15% boost using graphene membranes." }
             },
             {
               id: "solar-distillation",
               name: "Solar Still Distillation",
-              description: "A passive system utilizing solar radiation to evaporate saltwater, condensing pure water vapor on a sloped glass surface.",
-              category: "Low-Tech / Ancient",
+              category: "Solar",
+              costRating: 15,
+              energyIntensity: 0.1,
+              carbonFootprint: 0.05,
+              brineImpact: 2,
+              recoveryRate: 20,
+              description: "A passive system utilizing solar radiation to evaporate saltwater.",
+              pros: ["Zero energy cost", "Simple maintenance", "Eco-friendly"],
+              cons: ["Extremely low yield", "Requires large land area"],
+              historyContext: "Used by ancient communities.",
               sustainabilityScore: 95,
-              costPerCubicMeter: 0.10,
-              historyContext: "Used by ancient coastal communities and improved in the 16th century for maritime survival.",
               dailyCapacityLiters: 50,
-              lat: -23.0,
-              lng: 133.0,
+              lat: -23.0, lng: 133.0,
               agentAnalysis: { multiplier: 2.3, feedback: "Agent thermodynamics models show 2.3x yield with parabolic reflectors." }
-            },
-            {
-              id: "electrodialysis",
-              name: "Electrodialysis Reversal",
-              description: "Uses electrical potential to move salt ions through an ion-exchange membrane, leaving freshwater behind.",
-              category: "Modern Industrial",
-              sustainabilityScore: 65,
-              costPerCubicMeter: 0.85,
-              historyContext: "Developed alongside RO in the 20th century, optimal for brackish water sources.",
-              dailyCapacityLiters: 5000000,
-              lat: 34.0,
-              lng: -118.0
             },
             {
               id: "auto-discovered-1",
               name: "Aero-Condensation Matrix (Agent Analyzed)",
-              description: "Autonomous agent periodic sweep identified this theoretical concept using nanomesh grids to condense atmospheric moisture at high altitudes.",
               category: "Futuristic",
+              costRating: 95,
+              energyIntensity: 1.2,
+              carbonFootprint: 0.4,
+              brineImpact: 1,
+              recoveryRate: 80,
+              description: "Autonomous agent identified nanomesh grids to condense atmospheric moisture.",
+              pros: ["No feedwater needed", "Zero brine"],
+              cons: ["Theoretical", "Expensive materials"],
+              historyContext: "Agent flagged as high-potential.",
               sustainabilityScore: 98,
-              costPerCubicMeter: 1.20,
-              historyContext: "Agent flagged as high-potential resulting from parallel simulation sweeps.",
               dailyCapacityLiters: 2000,
-              lat: 0.0,
-              lng: 0.0,
-              agentAnalysis: { multiplier: 1.5, feedback: "Simulated scaling shows high potential in equatorial climates." }
+              lat: 0.0, lng: 0.0,
+              agentAnalysis: { multiplier: 1.5, feedback: "Simulated scaling shows high potential." }
             }
           ]), { status: 200, headers: { 'Content-Type': 'application/json' } });
         }
         
-        // Forum
         if (url.includes('/api/forum')) {
           return new Response(JSON.stringify([
             { id: "c1", techId: "reverse-osmosis", author: "Eng. Clara Vance", content: "Reverse Osmosis occupies 69% of the world's desalination capacity. The optimization of membrane fouling is key.", timestamp: new Date(Date.now() - 86400000).toISOString() },
-            { id: "c2", techId: "reverse-osmosis", author: "SysAdmin_Agent", content: "Agentic simulations suggest 32% reduction in marine harm if outfall tracks deep ocean currents.", timestamp: new Date(Date.now() - 3600000).toISOString() },
-            { id: "c3", techId: "solar-distillation", author: "Dr. Hassan", content: "I've deployed these in off-grid rural communities. Extremely reliable but space-intensive.", timestamp: new Date(Date.now() - 100000).toISOString() },
-            { id: "c4", techId: "auto-discovered-1", author: "Global R&D Agent", content: "Yield constraint identified: High wind shear reduces matrix effectiveness. Recommend structural baffling.", timestamp: new Date().toISOString() }
+            { id: "c2", techId: "reverse-osmosis", author: "SysAdmin_Agent", content: "Agentic simulations suggest 32% reduction in marine harm if outfall tracks deep ocean currents.", timestamp: new Date(Date.now() - 3600000).toISOString() }
           ]), { status: 200, headers: { 'Content-Type': 'application/json' } });
         }
 
-        // Auto-discover
         if (url.includes('/api/gemini/auto-discover')) {
           return new Response(JSON.stringify({
             success: true,
             source: "gemini",
             data: {
               id: "agent-" + Date.now(),
-              name: "Tidal-Osmotic Hybrid Array (Agent Analyzed)",
-              description: "Dispatched investigation agents analyzed 'Tidal Power'. This method utilizes pressure differentials from deep sea currents.",
+              name: "Tidal-Osmotic Hybrid Array",
               category: "Futuristic",
-              sustainabilityScore: 88,
-              costPerCubicMeter: 0.45,
+              costRating: 60,
+              energyIntensity: 0.8,
+              carbonFootprint: 0.1,
+              brineImpact: 3,
+              recoveryRate: 70,
+              description: "Dispatched investigation agents analyzed 'Tidal Power'.",
+              pros: ["High efficiency", "Synergistic energy"],
+              cons: ["Complex engineering", "Salt corrosion"],
               historyContext: "Autonomous agent simulation loop result.",
+              sustainabilityScore: 88,
               dailyCapacityLiters: 250000,
-              lat: 45.0,
-              lng: -30.0,
+              lat: 45.0, lng: -30.0,
               agentAnalysis: { multiplier: 1.8, feedback: "Synergistic energy recovery model validated." }
             }
           }), { status: 200, headers: { 'Content-Type': 'application/json' } });
         }
 
-        // Analyze Suggestion
         if (url.includes('/api/agent/analyze-suggestion')) {
           return new Response(JSON.stringify({
             success: true,
@@ -113,20 +115,18 @@
           }), { status: 200, headers: { 'Content-Type': 'application/json' } });
         }
         
-        // Discord test idea
         if (url.includes('/api/gemini/test-discord-idea')) {
           return new Response(JSON.stringify({
             success: true,
             data: {
               id: "agent-" + Date.now(),
-              name: "Discord Concept Generator (Agent Analyzed)",
-              description: "Analyzed user discord input and found novel characteristics.",
+              name: "Discord Concept Generator",
               category: "Futuristic",
-              sustainabilityScore: 70,
-              costPerCubicMeter: 1.0,
-              historyContext: "Suggested by Discord User via simulated interface.",
-              dailyCapacityLiters: 1000,
-              lat: 10, lng: 10
+              costRating: 50, energyIntensity: 50, carbonFootprint: 50, brineImpact: 5, recoveryRate: 50,
+              description: "Analyzed user discord input and found novel characteristics.",
+              pros: ["Novel"], cons: ["Untested"],
+              historyContext: "Suggested by Discord User.",
+              sustainabilityScore: 70, dailyCapacityLiters: 1000, lat: 10, lng: 10
             }
           }), { status: 200, headers: { 'Content-Type': 'application/json' } });
         }
@@ -134,8 +134,6 @@
     } catch (err) {
       console.error('Mock fetch interceptor error:', err);
     }
-    
-    // Pass-through for real assets, securely handling context
     return originalFetch.apply(window, arguments);
   };
 </script>
